@@ -1,0 +1,14 @@
+title: Meqdad A. Darwish 
+
+logo: me.jpg 
+
+description: Learner, developer and blogger. 
+
+show_downloads: false 
+
+theme: jekyll-theme-minimal 
+
+plugins:
+  - jekyll-seo-tag # SEO plugin
+
+email: meqdad.darweesh@gmail.com 
