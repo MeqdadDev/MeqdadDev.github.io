@@ -26,7 +26,8 @@ I'm a tech enthusiast, independent and fast learner, working continuously on dev
 - Computer Vision: TensorFlow, TensorFlowLite, YOLO Object Detection, MediaPipe
 
 ## 🌱 My Open-Source Contributions
-### ✅ I Developed: Detectors World (Python Package)
+### ✅ Detectors World (Python Package)
+#### _Computer Vision, OpenCV, Detection_
 #### Links: <a href="https://github.com/MeqdadDev/detectors-world" target="_blank">GitHub</a> | <a href="https://pypi.org/project/detectors-world" target="_blank">PyPI</a>
 
 Detectors World is a Python package created for building Computer Vision applications in easy and handy way.
@@ -39,5 +40,10 @@ The available detectors in Detectors World package are:
 
 
 ## ✍️ Articles & Blogs
-- <a href="https://medium.com/@meqdad.dev" target="_blank">Medium Articles</a>
-- <a href="https://dev.to/meqdad_dev" target="_blank">DEV Articles</a>
+My last articles and blogs:
+- Building Simple and Customizable Image Classifier with Teachable Machine and Python | <a href="https://medium.com/@meqdad.dev/building-simple-and-customizable-image-classifier-with-teachable-machine-and-python-30d50169d638" target="_blank">Medium</a>, <a href="https://dev.to/meqdad_dev/building-simple-and-customizable-image-classifier-with-teachable-machine-and-python-4jim" target="_blank">DEV.to</a>
+
+- SOLID Principles with Python | A story | <a href="https://medium.com/@meqdad.dev/solid-principles-with-python-a-story-35812c9da1f8" target="_blank">Medium</a>, <a href="https://dev.to/meqdad_dev/solid-principles-with-python-a-story-1eh8" target="_blank">DEV.to</a>
+---------
+- <a href="https://medium.com/@meqdad.dev" target="_blank">Medium Profile</a>
+- <a href="https://dev.to/meqdad_dev" target="_blank">DEV.to Profile</a>
