@@ -41,9 +41,13 @@ The available detectors in Detectors World package are:
 
 ## ✍️ Articles & Blogs
 My last articles and blogs:
-- Building Simple and Customizable Image Classifier with Teachable Machine and Python | <a href="https://medium.com/@meqdad.dev/building-simple-and-customizable-image-classifier-with-teachable-machine-and-python-30d50169d638" target="_blank">Medium</a>, <a href="https://dev.to/meqdad_dev/building-simple-and-customizable-image-classifier-with-teachable-machine-and-python-4jim" target="_blank">DEV.to</a>
+- ### Building Simple and Customizable Image Classifier with Teachable Machine and Python
+_Reading Links:_ <a href="https://medium.com/@meqdad.dev/building-simple-and-customizable-image-classifier-with-teachable-machine-and-python-30d50169d638" target="_blank">Medium</a>, <a href="https://dev.to/meqdad_dev/building-simple-and-customizable-image-classifier-with-teachable-machine-and-python-4jim" target="_blank">DEV.to</a>
 
-- SOLID Principles with Python | A story | <a href="https://medium.com/@meqdad.dev/solid-principles-with-python-a-story-35812c9da1f8" target="_blank">Medium</a>, <a href="https://dev.to/meqdad_dev/solid-principles-with-python-a-story-1eh8" target="_blank">DEV.to</a>
+- ### SOLID Principles with Python | A story
+_Reading Links:_ <a href="https://medium.com/@meqdad.dev/solid-principles-with-python-a-story-35812c9da1f8" target="_blank">Medium</a>, <a href="https://dev.to/meqdad_dev/solid-principles-with-python-a-story-1eh8" target="_blank">DEV.to</a>
+
 ---------
+
 - <a href="https://medium.com/@meqdad.dev" target="_blank">Medium Profile</a>
 - <a href="https://dev.to/meqdad_dev" target="_blank">DEV.to Profile</a>
