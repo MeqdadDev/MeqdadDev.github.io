@@ -59,51 +59,52 @@ _Reading Links:_ <a href="https://medium.com/@meqdad.dev/solid-principles-with-p
 
 ## 💼 Work experience 
 **R&D Engineer @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a> (_Sep 2023 - Present_)**
-- Research and Development Engineer.
-- Train and follow-up with trainers at <a href="https://www.purpose.ps/" target="_blank">Purpose Academy</a> to grasp advanced and new technical subjects.
-- Help the company team to stay updated with the new technologies and tools in Robotics and AI.
-- Build supplementary material for trainers (ToT Material).
-- Conduct research and work on different subjects such as: Computer Vision, Robotics, Internet of Things - IoT and Web Development.
+- Responsible for research and development as an engineer.
+- Train and follow up with trainers at <a href="https://www.purpose.ps/" target="_blank">Purpose Academy</a> to help them grasp advanced and new technical subjects.
+- Assist the company team in staying updated with the latest technologies and tools in Robotics and AI.
+- Develop supplementary training materials for trainers (ToT Materials).
+- Conduct research and work on various subjects, including Computer Vision, Robotics, Internet of Things (IoT), and Web Development.
 
 **Training Team Lead @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a> (_Jul 2020 - Aug 2023_)**
 - Led a team of trainers at the company.
-- Developed syllabus and building material for advanced courses.
-- Provided training in different courses (School/University/Employees), such as: Robotics, Computer Vision, Internet of Things - IoT, Web Development using Python.
-- Developed open-source tools related to my work such as: Teachable Machine and Detectors World Python packages.
-- Conducting and leading various training of trainers (TOT) projects in Robotics and Artificial Intelligence for the know firms such as: Ministry of Education (MoE), Ministry of Telecom. and IT (MTIT), NGOs in education sector, universities and more.
+- Developed syllabi and training materials for advanced courses.
+- Provided training in various courses (School/University/Employees), such as Robotics, Computer Vision, Internet of Things (IoT), and Web Development using Python.
+- Developed open-source tools related to work, such as the Teachable Machine and Detectors World Python packages.
+- Conducted and led various training of trainers (ToT) projects in Robotics and Artificial Intelligence for renowned firms, including the Ministry of Education (MoE), Ministry of Telecommunication and Information Technology (MTIT), NGOs in the education sector, universities, and more.
 
 **Back-end Developer @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a> (_Jan 2023 - Apr 2023_)**
-- Worked on an LMS project: Learning Management System for the company.
-- A member of back-end team.
+- Worked on a Learning Management System (LMS) project for the company.
+- Served as a member of the back-end development team.
 - Project Tech Stack: Django REST, PostgreSQL, and AWS.
 
 **Robotics and Coding Trainer @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a> (_Jun 2019 - Jul 2020_)**
-- Trained +2k students at Purpose academy from middle, high school and universities on different subject such as: Robotics, Python, Web Development, Internet of Things - IoT and Computer Vision.
-- Provided my consultation services to private schools for buidling robotics and AI vision in their programs.
+- Trained over 2,000 students at Purpose Academy, ranging from middle and high school to university levels, on various subjects, including Robotics, Python, Web Development, Internet of Things (IoT), and Computer Vision.
+- Provided consultation services to private schools for incorporating robotics and AI vision into their programs.
 
 **Product and Account Manager @ SETS (_Feb 2019 - Aug 2020_)**
-- Provided installation services for SmartClass+ & Let's Talk! from Robotel Inc.
-- Responsible for training and provide technical support for the customers.
-- Worked on product awareness plans and targetting new areas for new customers.
+- Provided installation services for SmartClass+ & Let's Talk! products from Robotel Inc.
+- Responsible for training customers and providing technical support.
+- Worked on product awareness plans and targeted new areas for acquiring new customers.
 
 **Front-end Developer @ JWAR (_Sep 2018 - Dec 2018_)**
-- Designed and developed the front-end side of reporting system at JWAR startup using React.
+- Designed and developed the front-end of a reporting system at the JWAR startup using React.
 
 **Founder & Sales Engineer @ PPU Electronics Store (_Sep 2016 - May 2018_)**
-- Selling elecronics, microcontrollers and other electronic accessories for coursework and senior projects at Faculty of Engineering and Technology at PPU.
-- Provided technical support for customers/students.
-- Provided university labs with required tools such as: microcontrollers, motors, sensors and other related tools.
+- Sold electronics, microcontrollers, and other electronic accessories for coursework and senior projects at the Faculty of Engineering and Technology at PPU.
+- Provided technical support to customers/students.
+- Supplied university labs with required tools such as microcontrollers, motors, sensors, and other related equipment.
 
 **Systems Engineer @ BIS (Badawi Information System) - Internship (_Jun 2016 - Sep 2016_)**
-- Worked on preparing servers and installing required OS such as: Windows Server.
-- Working with VMware vSphere for server resources management.
-- Installing storage units.
-- Periodic visits and providing technical support for customers.
+- Prepared servers and installed required operating systems such as Windows Server.
+- Worked with VMware vSphere for server resource management.
+- Installed storage units.
+- Conducted periodic visits and provided technical support to customers.
+
 
 ## 🎓 Education
 - **B.E.**, Computer Systems Engineering | <a href="https://ppu.edu/" target="_blank">Palestine Polytechnic University - PPU</a> (_2018_)
 
-  * Activities and societies: Member of IEEE Student Branch at University - PPU
+  * Activities and Community: Member of IEEE Student Branch at University - PPU
   * Organized Tech Workshops
   * Founded PPU Electronics Online Store
 
