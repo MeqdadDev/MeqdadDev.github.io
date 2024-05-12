@@ -19,15 +19,20 @@ I'm a tech enthusiast, independent and fast learner, working continuously on dev
 ## 🎓 Education
 - **B.E.**, Computer Systems Engineering | <a href="https://ppu.edu/" target="_blank">Palestine Polytechnic University - PPU</a> (_2018_)
 
+---------
+
 ## 📜 Knowledge Fields:
-- Data Science: NumPy, Pandas, Matplotlib, SciKitLearn
+_(What are the Knowledge Fields? These are areas I've explored, worked on, and built simple projects with, but haven't utilized in a production or professional work environment.)_
 - Robotics: _Arduino, ESP32, ESP8266, MicroPython, Raspberry Pi, micro:bit, ROS_
 - IoT: _Web-based IoT Apps, MQTT_
 - Computer Vision: TensorFlow, TensorFlowLite, YOLO Object Detection, MediaPipe
+- Data Science: NumPy, Pandas, Matplotlib, SciKitLearn
+
+---------
 
 ## 🌱 My Open-Source Contributions
 ### ✅ Detectors World (Python Package)
-#### _Computer Vision, OpenCV, Detection_
+#### Tags: _Computer Vision, OpenCV, Detection_
 #### Links: <a href="https://github.com/MeqdadDev/detectors-world" target="_blank">GitHub</a> | <a href="https://pypi.org/project/detectors-world" target="_blank">PyPI</a>
 
 Detectors World is a Python package created for building Computer Vision applications in easy and handy way.
@@ -38,9 +43,18 @@ The available detectors in Detectors World package are:
 - Pose Detection
 - Face Mesh Detection
 
+---------
+
+### ✅ PixCraft (Python Web App)
+#### Tags: _Image Processing, Flask, Computer Vision, OpenCV_
+#### Link: <a href="https://github.com/MeqdadDev/PixCraft" target="_blank">GitHub</a>
+
+PixCraft (Unleash the Power of Pixels) is a powerful image processing and computer vision application that allows users to explore and manipulate digital images effortlessly. With its intuitive interface, users can upload images or access their device's camera, and then apply a wide range of image processing operations like grayscale conversion, HSV color space transformation, edge detection, and more.
+
+---------
 
 ## ✍️ Articles & Blogs
-My last articles and blogs:
+My latest articles and blogs:
 - ### Building Simple and Customizable Image Classifier with Teachable Machine and Python
 _Reading Links:_ <a href="https://medium.com/@meqdad.dev/building-simple-and-customizable-image-classifier-with-teachable-machine-and-python-30d50169d638" target="_blank">Medium</a>, <a href="https://dev.to/meqdad_dev/building-simple-and-customizable-image-classifier-with-teachable-machine-and-python-4jim" target="_blank">DEV.to</a>
 
