@@ -4,14 +4,18 @@
 ### Summary: 
 I'm a tech enthusiast, independent and fast learner, working continuously on developing my skills where I can see my positive impact on the society and industry around the world. I like open-source contribution and reading books. 
 
+---------
+
 ## 💻 Technical Skills:
 
 - Programming: _Python, Java, HTML, CSS_
 - Frameworks: _Django, Flask, FastAPI, Spring Boot, OpenCV_
 - Tools and Platforms: _Linux, Git, Docker, Bash_
-- Databases: _PostgreSQL, MySQL, MongoDB, SQLite_
+- Databases: _PostgreSQL, MySQL, MongoDB, SQLite, Firebase_
 - Others: Unit Testing, REST API
 
+
+---------
 
 ## 📜 Knowledge Fields:
 _(What are the Knowledge Fields? These are areas I've explored, worked on, and built simple projects with, but haven't utilized in a production or professional work environment.)_
@@ -20,6 +24,7 @@ _(What are the Knowledge Fields? These are areas I've explored, worked on, and b
 - Computer Vision: TensorFlow, TensorFlowLite, YOLO Object Detection, MediaPipe
 - Data Science: NumPy, Pandas, Matplotlib, SciKitLearn
 
+---------
 
 ## 🌱 My Projects and Open-Source Contributions
 ### ✅ Detectors World (Python Package)
@@ -34,7 +39,6 @@ The available detectors in Detectors World package are:
 - Pose Detection
 - Face Mesh Detection
 
----------
 
 ### ✅ PixCraft (Python Web App)
 #### Tags: _Image Processing, Flask, Computer Vision, OpenCV_
@@ -52,62 +56,98 @@ _Reading Links:_ <a href="https://medium.com/@meqdad.dev/building-simple-and-cus
 - ### SOLID Principles with Python | A story
 _Reading Links:_ <a href="https://medium.com/@meqdad.dev/solid-principles-with-python-a-story-35812c9da1f8" target="_blank">Medium</a>, <a href="https://dev.to/meqdad_dev/solid-principles-with-python-a-story-1eh8" target="_blank">DEV.to</a>
 
+
+- 📝 **<a href="https://medium.com/@meqdad.dev" target="_blank">Medium Profile</a>**
+- 📝 **<a href="https://dev.to/meqdad_dev" target="_blank">DEV.to Profile</a>**
+
 ---------
 
-- <a href="https://medium.com/@meqdad.dev" target="_blank">Medium Profile</a>
-- <a href="https://dev.to/meqdad_dev" target="_blank">DEV.to Profile</a>
-
 ## 💼 Work experience 
-**R&D Engineer @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a> (_Sep 2023 - Present_)**
+
+👨‍💻 **Back-end Engineer @ <a href="https://logestechs.com/" target="_blank">LogesTechs</a>**
+
+_May 2024 - Present_
+
+- Tech Stack: Java, SpringBoot, MySQL, Jaspersoft Reports
+
+👨‍💻 **R&D Engineer @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a>**
+
+_Sep 2023 - Present_
+
 - Responsible for research and development as an engineer.
 - Train and follow up with trainers at <a href="https://www.purpose.ps/" target="_blank">Purpose Academy</a> to help them grasp advanced and new technical subjects.
 - Assist the company team in staying updated with the latest technologies and tools in Robotics and AI.
 - Develop supplementary training materials for trainers (ToT Materials).
 - Conduct research and work on various subjects, including Computer Vision, Robotics, Internet of Things (IoT), and Web Development.
 
-**Training Team Lead @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a> (_Jul 2020 - Aug 2023_)**
+👨‍💻 **Training Team Lead @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a>**
+
+_Jul 2020 - Aug 2023_
+
 - Led a team of trainers at the company.
 - Developed syllabi and training materials for advanced courses.
 - Provided training in various courses (School/University/Employees), such as Robotics, Computer Vision, Internet of Things (IoT), and Web Development using Python.
 - Developed open-source tools related to work, such as the Teachable Machine and Detectors World Python packages.
 - Conducted and led various training of trainers (ToT) projects in Robotics and Artificial Intelligence for renowned firms, including the Ministry of Education (MoE), Ministry of Telecommunication and Information Technology (MTIT), NGOs in the education sector, universities, and more.
 
-**Back-end Developer @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a> (_Jan 2023 - Apr 2023_)**
+👨‍💻 **Back-end Developer @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a>**
+
+_Jan 2023 - Apr 2023_
+
 - Worked on a Learning Management System (LMS) project for the company.
 - Served as a member of the back-end development team.
 - Project Tech Stack: Django REST, PostgreSQL, and AWS.
 
-**Robotics and Coding Trainer @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a> (_Jun 2019 - Jul 2020_)**
+👨‍💻 **Robotics and Coding Trainer @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a>**
+
+_Jun 2019 - Jul 2020_
+
 - Trained over 2,000 students at Purpose Academy, ranging from middle and high school to university levels, on various subjects, including Robotics, Python, Web Development, Internet of Things (IoT), and Computer Vision.
 - Provided consultation services to private schools for incorporating robotics and AI vision into their programs.
 
-**Product and Account Manager @ SETS (_Feb 2019 - Aug 2020_)**
+👨‍💻 **Product and Account Manager @ SETS**
+
+_Feb 2019 - Aug 2020_
+
 - Provided installation services for SmartClass+ & Let's Talk! products from Robotel Inc.
 - Responsible for training customers and providing technical support.
 - Worked on product awareness plans and targeted new areas for acquiring new customers.
 
-**Front-end Developer @ JWAR (_Sep 2018 - Dec 2018_)**
+👨‍💻 **Front-end Developer @ JWAR**
+
+_Sep 2018 - Dec 2018_
+
 - Designed and developed the front-end of a reporting system at the JWAR startup using React.
 
-**Founder & Sales Engineer @ PPU Electronics Store (_Sep 2016 - May 2018_)**
+👨‍💻 **Founder & Sales Engineer @ PPU Electronics Store**
+
+_Sep 2016 - May 2018_
+
 - Sold electronics, microcontrollers, and other electronic accessories for coursework and senior projects at the Faculty of Engineering and Technology at PPU.
 - Provided technical support to customers/students.
 - Supplied university labs with required tools such as microcontrollers, motors, sensors, and other related equipment.
 
-**Systems Engineer @ BIS (Badawi Information System) - Internship (_Jun 2016 - Sep 2016_)**
+👨‍💻 **Systems Engineer @ BIS (Badawi Information System) - Internship**
+
+_Jun 2016 - Sep 2016_
+
 - Prepared servers and installed required operating systems such as Windows Server.
 - Worked with VMware vSphere for server resource management.
 - Installed storage units.
 - Conducted periodic visits and provided technical support to customers.
 
+---------
 
 ## 🎓 Education
-- **B.E.**, Computer Systems Engineering | <a href="https://ppu.edu/" target="_blank">Palestine Polytechnic University - PPU</a> (_2018_)
+- **B.E.**, Computer Systems Engineering | <a href="https://ppu.edu/" target="_blank">Palestine Polytechnic University - PPU</a>
+
+Class of _2018 (Graduation)_
 
   * Activities and Community: Member of IEEE Student Branch at University - PPU
   * Organized Tech Workshops
   * Founded PPU Electronics Online Store
 
+---------
 
 ## 🎓 Find Me Here
 - <a href="https://www.linkedin.com/in/meqdad-darwish/" target="_blank">LinkedIn</a>
