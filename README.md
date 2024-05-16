@@ -2,7 +2,7 @@
 ### Developer💻| Blogger🖋️| Geek👨‍💻| Roboticist🤖| Reader📚
 
 ### Summary: 
-I'm a tech enthusiast, independent and fast learner, working continuously on developing my skills where I can see my positive impact on the society and industry around the world. I like open-source contribution and reading books. 
+I'm a tech enthusiast, independent and fast learner, working continuously on developing my skills where I can see my positive impact on the society and industry around the world. Currently; I'm working as Back-end engineer and I like open-source contribution and reading books. 
 
 ---------
 
@@ -72,13 +72,23 @@ _May 2024 - Present_
 
 👨‍💻 **R&D Engineer @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a>**
 
-_Sep 2023 - Present_
+_Part Time - Sep 2023 - Present_
 
 - Responsible for research and development as an engineer.
 - Train and follow up with trainers at <a href="https://www.purpose.ps/" target="_blank">Purpose Academy</a> to help them grasp advanced and new technical subjects.
 - Assist the company team in staying updated with the latest technologies and tools in Robotics and AI.
 - Develop supplementary training materials for trainers (ToT Materials).
 - Conduct research and work on various subjects, including Computer Vision, Robotics, Internet of Things (IoT), and Web Development.
+
+👨‍💻 **Technical Engineer @ <a href="https://www.roboticx.ps/" target="_blank">RoboticX</a>**
+
+_Part Time, Sep 2023 - May 2024_
+
+- Review and manage e-Commerce accounts and products.
+- Store management for products and quantities.
+- Working on robotics and electronics projects.
+- Create content for new products and social media platforms.
+
 
 👨‍💻 **Training Team Lead @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a>**
 
@@ -90,7 +100,7 @@ _Jul 2020 - Aug 2023_
 - Developed open-source tools related to work, such as the Teachable Machine and Detectors World Python packages.
 - Conducted and led various training of trainers (ToT) projects in Robotics and Artificial Intelligence for renowned firms, including the Ministry of Education (MoE), Ministry of Telecommunication and Information Technology (MTIT), NGOs in the education sector, universities, and more.
 
-👨‍💻 **Back-end Developer @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a>**
+👨‍💻 **Back-end Engineer @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a>**
 
 _Jan 2023 - Apr 2023_
 
@@ -102,15 +112,16 @@ _Jan 2023 - Apr 2023_
 
 _Jun 2019 - Jul 2020_
 
-- Trained over 2,000 students at Purpose Academy, ranging from middle and high school to university levels, on various subjects, including Robotics, Python, Web Development, Internet of Things (IoT), and Computer Vision.
-- Provided consultation services to private schools for incorporating robotics and AI vision into their programs.
+- Trained over 2,000 students at Purpose Academy, ranging from middle and high school to university levels.
+- Conducted workshops and courses in various subjects, including Robotics, Python, Web Development, Internet of Things (IoT), and Computer Vision.
+- Provided consultation services to private schools for incorporating robotics and AI strategic vision into their programs.
 
 👨‍💻 **Product and Account Manager @ SETS**
 
 _Feb 2019 - Aug 2020_
 
 - Provided installation services for SmartClass+ & Let's Talk! products from Robotel Inc.
-- Responsible for training customers and providing technical support.
+- Conducted training sessions and provided technical support to customers, ensuring thorough follow-up.
 - Worked on product awareness plans and targeted new areas for acquiring new customers.
 
 👨‍💻 **Front-end Developer @ JWAR**
@@ -127,9 +138,9 @@ _Sep 2016 - May 2018_
 - Provided technical support to customers/students.
 - Supplied university labs with required tools such as microcontrollers, motors, sensors, and other related equipment.
 
-👨‍💻 **Systems Engineer @ BIS (Badawi Information System) - Internship**
+👨‍💻 **Systems Engineer @ BIS (Badawi Information System)**
 
-_Jun 2016 - Sep 2016_
+_Internship, Jun 2016 - Sep 2016_
 
 - Prepared servers and installed required operating systems such as Windows Server.
 - Worked with VMware vSphere for server resource management.
