@@ -9,7 +9,7 @@ I'm a tech enthusiast, independent and fast learner, working continuously on dev
 ## 💻 Technical Skills:
 
 - Programming: _Python, Java, HTML, CSS_
-- Frameworks: _Django, Flask, FastAPI, Spring Boot, OpenCV_
+- Frameworks & Libraries: _Spring Boot, Django, Flask, FastAPI, OpenCV_
 - Tools and Platforms: _Linux, Git, Docker, Bash_
 - Databases: _PostgreSQL, MySQL, MongoDB, SQLite, Firebase_
 - Others: Unit Testing, REST API
@@ -27,7 +27,9 @@ _(What are the Knowledge Fields? These are areas I've explored, worked on, and b
 ---------
 
 ## 🌱 My Projects and Open-Source Contributions
+
 ### ✅ Detectors World (Python Package)
+
 #### Tags: _Computer Vision, OpenCV, Detection_
 #### Links: <a href="https://github.com/MeqdadDev/detectors-world" target="_blank">GitHub</a> | <a href="https://pypi.org/project/detectors-world" target="_blank">PyPI</a>
 
@@ -38,6 +40,14 @@ The available detectors in Detectors World package are:
 - Face Detection
 - Pose Detection
 - Face Mesh Detection
+
+
+### ✅ Teachable Machine (Python Package)
+
+#### Tags: _Computer Vision, OpenCV, Classification_
+#### Links: <a href="https://github.com/MeqdadDev/teachable-machine" target="_blank">GitHub</a> | <a href="https://pypi.org/project/teachable-machine/" target="_blank">PyPI</a>
+
+Teachable Machine is a Python package to simplify the classification process of exported <a href="https://teachablemachine.withgoogle.com/" target="_blank">Teachable Machine</a> models into Python projects.
 
 
 ### ✅ PixCraft (Python Web App)
