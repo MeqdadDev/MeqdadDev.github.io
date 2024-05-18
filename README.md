@@ -21,14 +21,14 @@ I'm a tech enthusiast, independent and fast learner, working continuously on dev
 _(What are the Knowledge Fields? These are areas I've explored, worked on, and built simple projects with, but haven't utilized in a production or professional work environment.)_
 - Robotics: _Arduino, ESP32, ESP8266, MicroPython, Raspberry Pi, micro:bit, ROS_
 - IoT: _Web-based IoT Apps, MQTT_
-- Computer Vision: TensorFlow, TensorFlowLite, YOLO Object Detection, MediaPipe
-- Data Science: NumPy, Pandas, Matplotlib, SciKitLearn
+- Computer Vision: _TensorFlow, TensorFlowLite, YOLO Object Detection, MediaPipe_
+- Data Science: _NumPy, Pandas, Matplotlib, SciKitLearn_
 
 ---------
 
 ## 🌱 My Projects and Open-Source Contributions
 
-### ✅ Detectors World (Python Package)
+### 💻 Detectors World (Python Package)
 
 #### Tags: _Computer Vision, OpenCV, Detection_
 #### Links: <a href="https://github.com/MeqdadDev/detectors-world" target="_blank">GitHub</a> | <a href="https://pypi.org/project/detectors-world" target="_blank">PyPI</a>
@@ -42,7 +42,7 @@ The available detectors in Detectors World package are:
 - Face Mesh Detection
 
 
-### ✅ Teachable Machine (Python Package)
+### 💻 Teachable Machine (Python Package)
 
 #### Tags: _Computer Vision, OpenCV, Classification_
 #### Links: <a href="https://github.com/MeqdadDev/teachable-machine" target="_blank">GitHub</a> | <a href="https://pypi.org/project/teachable-machine/" target="_blank">PyPI</a>
@@ -50,7 +50,7 @@ The available detectors in Detectors World package are:
 Teachable Machine is a Python package to simplify the classification process of exported <a href="https://teachablemachine.withgoogle.com/" target="_blank">Teachable Machine</a> models into Python projects.
 
 
-### ✅ PixCraft (Python Web App)
+### 💻 PixCraft (Python Web App)
 #### Tags: _Image Processing, Flask, Computer Vision, OpenCV_
 #### Link: <a href="https://github.com/MeqdadDev/PixCraft" target="_blank">GitHub</a>
 
