@@ -12,7 +12,7 @@ I'm a tech enthusiast, independent and fast learner, working continuously on dev
 - Frameworks & Libraries: _Spring Boot, Django, Flask, FastAPI, OpenCV_
 - Tools and Platforms: _Linux, Git, Docker, Bash_
 - Databases: _PostgreSQL, MySQL, MongoDB, SQLite, Firebase_
-- Others: Unit Testing, REST API
+- Others: _Unit Testing, REST API_
 
 
 ---------
