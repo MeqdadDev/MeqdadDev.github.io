@@ -56,6 +56,13 @@ Teachable Machine is a Python package to simplify the classification process of 
 
 PixCraft (Unleash the Power of Pixels) is a powerful image processing and computer vision application that allows users to explore and manipulate digital images effortlessly. With its intuitive interface, users can upload images or access their device's camera, and then apply a wide range of image processing operations like grayscale conversion, HSV color space transformation, edge detection, and more.
 
+### 💻 Teachable Machine Lite (Python Package)
+
+#### Tags: _Computer Vision, OpenCV, Classification, Raspberry Pi, Robotics_
+#### Links: <a href="https://github.com/MeqdadDev/teachable-machine-lite" target="_blank">GitHub</a> | <a href="https://pypi.org/project/teachable-machine-lite/" target="_blank">PyPI</a>
+
+A Python package to simplify the deployment process of exported <a href="https://teachablemachine.withgoogle.com/" target="_blank">Teachable Machine</a> models into different Robotics, AI and IoT controllers such as: Raspberry Pi, Jetson Nano and any other SBCs using TensorFlowLite framework.
+
 ---------
 
 ## ✍️ Articles & Blogs
