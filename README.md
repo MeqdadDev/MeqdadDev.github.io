@@ -45,9 +45,9 @@ The available detectors in Detectors World package are:
 ### 💻 Teachable Machine (Python Package)
 
 #### Tags: _Computer Vision, OpenCV, Classification_
-#### Links: <a href="https://github.com/MeqdadDev/teachable-machine" target="_blank">GitHub</a> | <a href="https://pypi.org/project/teachable-machine/" target="_blank">PyPI</a>
-
-Teachable Machine is a Python package to simplify the classification process of exported <a href="https://teachablemachine.withgoogle.com/" target="_blank">Teachable Machine</a> models into Python projects.
+#### Links: <a href="https://meqdaddev.github.io/teachable-machine/" target="_blank">Documentation</a> | <a href="https://github.com/MeqdadDev/teachable-machine" target="_blank">GitHub</a> | <a href="https://pypi.org/project/teachable-machine/" target="_blank">PyPI</a>
+ 
+A Python package designed to simplify the integration of exported models from Google's <a href="https://teachablemachine.withgoogle.com/" target="_blank">Teachable Machine</a> platform into various environments. This tool was specifically crafted to work seamlessly with Teachable Machine, making it easier to implement and use your trained models.
 
 
 ### 💻 PixCraft (Python Web App)
