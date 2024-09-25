@@ -83,9 +83,18 @@ _Reading Links:_ <a href="https://medium.com/@meqdad.dev/solid-principles-with-p
 
 👨‍💻 **Back-end Engineer @ <a href="https://logestechs.com/" target="_blank">LogesTechs</a>**
 
-_May 2024 - Present_
+_May 2024 - Sep 2024_
 
 - Tech Stack: Java, SpringBoot, MySQL, Jaspersoft Reports
+
+👨‍💻 **Technical Engineer @ <a href="https://www.roboticx.ps/" target="_blank">RoboticX</a>**
+
+_Part Time, Sep 2023 - Present_
+
+- Review and manage e-Commerce accounts and products.
+- Store management for products and quantities.
+- Working on robotics and electronics projects.
+- Create content for new products and social media platforms.
 
 👨‍💻 **R&D Engineer @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a>**
 
@@ -96,16 +105,6 @@ _Part Time - Sep 2023 - Present_
 - Assist the company team in staying updated with the latest technologies and tools in Robotics and AI.
 - Develop supplementary training materials for trainers (ToT Materials).
 - Conduct research and work on various subjects, including Computer Vision, Robotics, Internet of Things (IoT), and Web Development.
-
-👨‍💻 **Technical Engineer @ <a href="https://www.roboticx.ps/" target="_blank">RoboticX</a>**
-
-_Part Time, Sep 2023 - May 2024_
-
-- Review and manage e-Commerce accounts and products.
-- Store management for products and quantities.
-- Working on robotics and electronics projects.
-- Create content for new products and social media platforms.
-
 
 👨‍💻 **Training Team Lead @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a>**
 
