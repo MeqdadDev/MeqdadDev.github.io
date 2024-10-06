@@ -85,7 +85,10 @@ _Reading Links:_ <a href="https://medium.com/@meqdad.dev/solid-principles-with-p
 
 _May 2024 - Sep 2024_
 
-- Tech Stack: Java, SpringBoot, MySQL, Jaspersoft Reports
+- Developed and maintained a logistics management system using Java, Spring Boot, and MySQL.
+- Designed and implemented RESTful APIs to handle over 30k+ daily data entries for delivery companies and fulfillment warehouses.
+- Integrated Jasper Reports to generate real-time reports for tracking logistics operations.
+- Worked in an Agile environment, collaborating closely with cross-functional teams to enhance system performance and scalability.
 
 👨‍💻 **Technical Engineer @ <a href="https://www.roboticx.ps/" target="_blank">RoboticX</a>**
 
@@ -98,7 +101,7 @@ _Part Time, Sep 2023 - Present_
 
 👨‍💻 **R&D Engineer @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a>**
 
-_Part Time - Sep 2023 - Present_
+_Part Time - Sep 2023 - Jun 2024_
 
 - Responsible for research and development as an engineer.
 - Train and follow up with trainers at <a href="https://www.purpose.ps/" target="_blank">Purpose Academy</a> to help them grasp advanced and new technical subjects.
