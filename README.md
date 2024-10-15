@@ -147,7 +147,9 @@ _Feb 2019 - Aug 2020_
 
 _Sep 2018 - Dec 2018_
 
-- Designed and developed the front-end of a reporting system at the JWAR startup using React.
+- Developed and designed the front-end of a dynamic reporting system for the JWAR startup using React, focusing on creating responsive and user-friendly interfaces.
+- Integrated with back-end APIs to display real-time data, building reusable React components to ensure modularity and maintainability within the web application.
+- Collaborated closely with the design and back-end team to align the front-end implementation with UX/UI design and ensure seamless data flow.
 
 👨‍💻 **Founder & Sales Engineer @ PPU Electronics Store**
 
