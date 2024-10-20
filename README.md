@@ -67,6 +67,10 @@ A Python package to simplify the deployment process of exported <a href="https:/
 
 ## ✍️ Articles & Blogs
 My latest articles and blogs:
+
+- ### Mastering MongoDB Aggregation: A Journey from Fundamentals to Advanced Optimization
+_Reading Links:_ <a href="https://medium.com/@meqdad.dev/mastering-mongodb-aggregation-a-journey-from-fundamentals-to-advanced-optimization-a1be02e816a0" target="_blank">Medium</a>, <a href="https://dev.to/meqdad_dev/mastering-mongodb-aggregation-a-journey-from-fundamentals-to-advanced-optimization-2eji" target="_blank">DEV.to</a>, <a href="https://gist.github.com/MeqdadDev/7f17bce88cedd71136ec14428b4f1845" target="_blank">GitHub</a>
+
 - ### Building Simple and Customizable Image Classifier with Teachable Machine and Python
 _Reading Links:_ <a href="https://medium.com/@meqdad.dev/building-simple-and-customizable-image-classifier-with-teachable-machine-and-python-30d50169d638" target="_blank">Medium</a>, <a href="https://dev.to/meqdad_dev/building-simple-and-customizable-image-classifier-with-teachable-machine-and-python-4jim" target="_blank">DEV.to</a>
 
