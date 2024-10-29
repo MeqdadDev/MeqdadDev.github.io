@@ -68,6 +68,9 @@ A Python package to simplify the deployment process of exported <a href="https:/
 ## ✍️ Articles & Blogs
 My latest articles and blogs:
 
+- ### Lessons I’ve Learned: 10 Tips for Successful Open-Source Project Development
+_Reading Links:_ <a href="https://medium.com/@meqdad.dev/lessons-ive-learned-10-tips-for-successful-open-source-project-development-38a166fa0a13" target="_blank">Medium</a>, <a href="https://dev.to/meqdad_dev/lessons-ive-learned-10-tips-for-successful-open-source-project-development-5dl9" target="_blank">DEV.to</a>, <a href="https://gist.github.com/MeqdadDev/92f70ac7227bc4d4689142006d81d78d" target="_blank">GitHub</a>
+
 - ### Mastering MongoDB Aggregation: A Journey from Fundamentals to Advanced Optimization
 _Reading Links:_ <a href="https://medium.com/@meqdad.dev/mastering-mongodb-aggregation-a-journey-from-fundamentals-to-advanced-optimization-a1be02e816a0" target="_blank">Medium</a>, <a href="https://dev.to/meqdad_dev/mastering-mongodb-aggregation-a-journey-from-fundamentals-to-advanced-optimization-2eji" target="_blank">DEV.to</a>, <a href="https://gist.github.com/MeqdadDev/7f17bce88cedd71136ec14428b4f1845" target="_blank">GitHub</a>
 
