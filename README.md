@@ -69,7 +69,7 @@ A Python package to simplify the deployment process of exported <a href="https:/
 My latest articles and blogs:
 
 - ### Stop Creating Repos To Share Your Code Snippets - Use GitHub Gists Instead
-_Reading Links:_ <a href="https://dev.to/meqdad_dev/stop-creating-repos-to-share-your-code-snippets-use-github-gists-instead-4j5c" target="_blank">DEV.to</a>
+_Reading Links:_ <a href="https://medium.com/@meqdad.dev/stop-creating-repos-to-share-your-code-snippets-use-github-gists-instead-1708b3bd27dd" target="_blank">Medium</a>, <a href="https://dev.to/meqdad_dev/stop-creating-repos-to-share-your-code-snippets-use-github-gists-instead-4j5c" target="_blank">DEV.to</a>, <a href="https://gist.github.com/MeqdadDev/b4f9b2987d3f34da00a3a416660b8918" target="_blank">GitHub</a>
 
 - ### Lessons I’ve Learned: 10 Tips for Successful Open-Source Project Development
 _Reading Links:_ <a href="https://medium.com/@meqdad.dev/lessons-ive-learned-10-tips-for-successful-open-source-project-development-38a166fa0a13" target="_blank">Medium</a>, <a href="https://dev.to/meqdad_dev/lessons-ive-learned-10-tips-for-successful-open-source-project-development-5dl9" target="_blank">DEV.to</a>, <a href="https://gist.github.com/MeqdadDev/92f70ac7227bc4d4689142006d81d78d" target="_blank">GitHub</a>
