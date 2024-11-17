@@ -68,20 +68,23 @@ A Python package to simplify the deployment process of exported <a href="https:/
 ## ✍️ Articles & Blogs
 My latest articles and blogs:
 
+- ### Context Managers Demystified: Simplify Your Resource Handling in Python
+_Reading Links:_ <a href="https://medium.com/@meqdad.dev/context-managers-demystified-simplify-your-resource-handling-in-python-2394a9442c18" target="_blank">Medium</a> | <a href="https://dev.to/meqdad_dev/context-managers-demystified-simplify-your-resource-handling-in-python-4lc0" target="_blank">DEV.to</a> | <a href="https://gist.github.com/MeqdadDev/d6728dd03c97688efd9b096c991b1ad3" target="_blank">GitHub</a>
+
 - ### Stop Creating Repos To Share Your Code Snippets - Use GitHub Gists Instead
-_Reading Links:_ <a href="https://medium.com/@meqdad.dev/stop-creating-repos-to-share-your-code-snippets-use-github-gists-instead-1708b3bd27dd" target="_blank">Medium</a>, <a href="https://dev.to/meqdad_dev/stop-creating-repos-to-share-your-code-snippets-use-github-gists-instead-4j5c" target="_blank">DEV.to</a>, <a href="https://gist.github.com/MeqdadDev/b4f9b2987d3f34da00a3a416660b8918" target="_blank">GitHub</a>
+_Reading Links:_ <a href="https://medium.com/@meqdad.dev/stop-creating-repos-to-share-your-code-snippets-use-github-gists-instead-1708b3bd27dd" target="_blank">Medium</a> | <a href="https://dev.to/meqdad_dev/stop-creating-repos-to-share-your-code-snippets-use-github-gists-instead-4j5c" target="_blank">DEV.to</a> | <a href="https://gist.github.com/MeqdadDev/b4f9b2987d3f34da00a3a416660b8918" target="_blank">GitHub</a>
 
 - ### Lessons I’ve Learned: 10 Tips for Successful Open-Source Project Development
-_Reading Links:_ <a href="https://medium.com/@meqdad.dev/lessons-ive-learned-10-tips-for-successful-open-source-project-development-38a166fa0a13" target="_blank">Medium</a>, <a href="https://dev.to/meqdad_dev/lessons-ive-learned-10-tips-for-successful-open-source-project-development-5dl9" target="_blank">DEV.to</a>, <a href="https://gist.github.com/MeqdadDev/92f70ac7227bc4d4689142006d81d78d" target="_blank">GitHub</a>
+_Reading Links:_ <a href="https://medium.com/@meqdad.dev/lessons-ive-learned-10-tips-for-successful-open-source-project-development-38a166fa0a13" target="_blank">Medium</a> | <a href="https://dev.to/meqdad_dev/lessons-ive-learned-10-tips-for-successful-open-source-project-development-5dl9" target="_blank">DEV.to</a> | <a href="https://gist.github.com/MeqdadDev/92f70ac7227bc4d4689142006d81d78d" target="_blank">GitHub</a>
 
 - ### Mastering MongoDB Aggregation: A Journey from Fundamentals to Advanced Optimization
-_Reading Links:_ <a href="https://medium.com/@meqdad.dev/mastering-mongodb-aggregation-a-journey-from-fundamentals-to-advanced-optimization-a1be02e816a0" target="_blank">Medium</a>, <a href="https://dev.to/meqdad_dev/mastering-mongodb-aggregation-a-journey-from-fundamentals-to-advanced-optimization-2eji" target="_blank">DEV.to</a>, <a href="https://gist.github.com/MeqdadDev/7f17bce88cedd71136ec14428b4f1845" target="_blank">GitHub</a>
+_Reading Links:_ <a href="https://medium.com/@meqdad.dev/mastering-mongodb-aggregation-a-journey-from-fundamentals-to-advanced-optimization-a1be02e816a0" target="_blank">Medium</a> | <a href="https://dev.to/meqdad_dev/mastering-mongodb-aggregation-a-journey-from-fundamentals-to-advanced-optimization-2eji" target="_blank">DEV.to</a> | <a href="https://gist.github.com/MeqdadDev/7f17bce88cedd71136ec14428b4f1845" target="_blank">GitHub</a>
 
 - ### Building Simple and Customizable Image Classifier with Teachable Machine and Python
-_Reading Links:_ <a href="https://medium.com/@meqdad.dev/building-simple-and-customizable-image-classifier-with-teachable-machine-and-python-30d50169d638" target="_blank">Medium</a>, <a href="https://dev.to/meqdad_dev/building-simple-and-customizable-image-classifier-with-teachable-machine-and-python-4jim" target="_blank">DEV.to</a>
+_Reading Links:_ <a href="https://medium.com/@meqdad.dev/building-simple-and-customizable-image-classifier-with-teachable-machine-and-python-30d50169d638" target="_blank">Medium</a> | <a href="https://dev.to/meqdad_dev/building-simple-and-customizable-image-classifier-with-teachable-machine-and-python-4jim" target="_blank">DEV.to</a>
 
 - ### SOLID Principles with Python | A story
-_Reading Links:_ <a href="https://medium.com/@meqdad.dev/solid-principles-with-python-a-story-35812c9da1f8" target="_blank">Medium</a>, <a href="https://dev.to/meqdad_dev/solid-principles-with-python-a-story-1eh8" target="_blank">DEV.to</a>
+_Reading Links:_ <a href="https://medium.com/@meqdad.dev/solid-principles-with-python-a-story-35812c9da1f8" target="_blank">Medium</a> | <a href="https://dev.to/meqdad_dev/solid-principles-with-python-a-story-1eh8" target="_blank">DEV.to</a>
 
 
 - 📝 **<a href="https://medium.com/@meqdad.dev" target="_blank">Medium Profile</a>**
