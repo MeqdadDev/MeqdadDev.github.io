@@ -59,9 +59,9 @@ PixCraft (Unleash the Power of Pixels) is a powerful image processing and comput
 ### 💻 Teachable Machine Lite (Python Package)
 
 #### Tags: _Computer Vision, OpenCV, Classification, Raspberry Pi, Robotics_
-#### Links: <a href="https://github.com/MeqdadDev/teachable-machine-lite" target="_blank">GitHub</a> | <a href="https://pypi.org/project/teachable-machine-lite/" target="_blank">PyPI</a>
+#### Links: <a href="https://meqdaddev.github.io/teachable-machine-lite/" target="_blank">Documentation</a> | <a href="https://github.com/MeqdadDev/teachable-machine-lite" target="_blank">GitHub</a> | <a href="https://pypi.org/project/teachable-machine-lite/" target="_blank">PyPI</a>
 
-A Python package to simplify the deployment process of exported <a href="https://teachablemachine.withgoogle.com/" target="_blank">Teachable Machine</a> models into different Robotics, AI and IoT controllers such as: Raspberry Pi, Jetson Nano and any other SBCs using TensorFlowLite framework.
+A lightweight Python package optimized for integrating exported models from Google's [Teachable Machine Platform](https://teachablemachine.withgoogle.com/) into robotics and embedded systems environments. This streamlined version of [Teachable Machine Package](https://github.com/MeqdadDev/teachable-machine) is specifically designed for resource-constrained devices, making it easier to deploy and use your trained models in embedded applications. With a focus on efficiency and minimal dependencies, this tool maintains the core functionality while being more suitable for robotics and IoT projects.
 
 ---------
 
