@@ -6,10 +6,117 @@ I'm a tech enthusiast, independent and fast learner, working continuously on dev
 
 ---------
 
+## 💼 Work Experience
+
+👨‍💻 **Back-end Engineer @ <a href="https://logestechs.com/" target="_blank">LogesTechs</a>**
+
+_May 2024 - Sep 2024_
+
+- Developed and maintained a logistics management system using Java, JDBC, Spring Boot, and MySQL, designing RESTful APIs to process 30k+ daily data entries for delivery companies and fulfillment warehouses
+- Implemented major features for the customer wallet service, managing transactions, points, and various credits for customer accounts, alongside building a logging service to track and audit account changes
+- Integrated Jasper Reports to generate real-time logistics operation reports and contributed to the package tracking system through bug fixes, performance improvements, and new features
+- Worked in an Agile environment, collaborating closely with cross-functional teams to enhance system performance, scalability, and reliability
+
+
+👨‍💻 **Technical Engineer @ <a href="https://www.roboticx.ps/" target="_blank">RoboticX</a>**
+
+_Part Time, Sep 2023 - May 2024_
+
+- Review and manage e-Commerce accounts and products.
+- Store management for products and quantities.
+- Working on robotics and electronics projects.
+- Create content for new products and social media platforms.
+
+👨‍💻 **R&D Engineer @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a>**
+
+_Part Time - Sep 2023 - Apr 2024_
+
+- Responsible for research and development as an engineer.
+- Train and follow up with trainers at <a href="https://www.purpose.ps/" target="_blank">Purpose Academy</a> to help them grasp advanced and new technical subjects.
+- Assist the company team in staying updated with the latest technologies and tools in Robotics and AI.
+- Develop supplementary training materials for trainers (ToT Materials).
+- Conduct research and work on various subjects, including Computer Vision, Robotics, Internet of Things (IoT), and Web Development.
+
+👨‍💻 **Training Team Lead @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a>**
+
+_Jan 2021 - Aug 2023_
+
+- Led a team of trainers at the company.
+- Developed syllabi and training materials for advanced courses.
+- Provided training in various courses (School/University/Employees), such as Robotics, Computer Vision, Internet of Things (IoT), and Web Development using Python.
+- Developed open-source tools related to work, such as the Teachable Machine and Detectors World Python packages.
+- Conducted and led various training of trainers (ToT) projects in Robotics and Artificial Intelligence for renowned firms, including the Ministry of Education (MoE), Ministry of Telecommunication and Information Technology (MTIT), NGOs in the education sector, universities, and more.
+
+👨‍💻 **Back-end Engineer @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a>**
+
+_Jan 2023 - Apr 2023_
+
+- Worked on a Learning Management System (LMS) project for the company.
+- Served as a member of the back-end development team.
+- Project Tech Stack: Django REST, PostgreSQL, and AWS.
+
+👨‍💻 **Robotics and Coding Trainer @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a>**
+
+_Sep 2019 - Aug 2023_
+
+- Trained over 2,000 students at Purpose Academy, ranging from middle and high school to university levels.
+- Conducted workshops and courses in various subjects, including Robotics, Python, Web Development, Internet of Things (IoT), and Computer Vision.
+- Provided consultation services to private schools for incorporating robotics and AI strategic vision into their programs.
+
+👨‍💻 **Product Manager & Technical Support @ SETS**
+
+_Feb 2019 - Aug 2020_
+
+- Installed, trained, and supported educators on SmartClass+ and Let's Talk! Product by Robotel Inc.
+- Delivered product demos, conducted training sessions and provided technical support for educators
+- Worked on product awareness plans and targeted new areas for acquiring new customers
+- Managed the integration of smart tools into STEM education
+- Delivered product demos and provided technical support
+
+
+👨‍💻 **Front-end Developer @ JWAR**
+
+_Sep 2018 - Dec 2018_
+
+- Developed and designed the front-end of a dynamic reporting system for the JWAR startup using React, focusing on creating responsive and user-friendly interfaces
+- Integrated with back-end APIs to display real-time data, building reusable React components to ensure modularity and maintainability within the web application
+- Collaborated closely with the design and back-end teams to align the front-end implementation with UX/UI design and ensure seamless data flow.
+
+
+👨‍💻 **Founder & Sales Engineer @ PPU Electronics Store**
+
+_Sep 2016 - May 2018_
+
+- Sold electronics, microcontrollers, and other electronic accessories for coursework and senior projects at the Faculty of Engineering and Technology at PPU.
+- Provided technical support to customers/students.
+- Supplied university labs with required tools such as microcontrollers, motors, sensors, and other related equipment.
+
+👨‍💻 **Systems Engineer @ BIS (Badawi Information System)**
+
+_Internship, Jun 2016 - Sep 2016_
+
+- Prepared servers and installed required operating systems such as Windows Server.
+- Worked with VMware vSphere for server resource management.
+- Installed storage units.
+- Conducted periodic visits and provided technical support to customers.
+
+---------
+
+## 🎓 Education
+- **B.E.**, Computer Systems Engineering | <a href="https://ppu.edu/" target="_blank">Palestine Polytechnic University - PPU</a>
+
+Class of _2018 (Graduation)_
+
+  * Activities and Community: Member of IEEE Student Branch at University - PPU
+  * Organized Tech Workshops
+  * Founded PPU Electronics Online Store
+
+---------
+
 ## 💻 Technical Skills:
 
-- Programming: _Python, Java, HTML, CSS_
-- Frameworks & Libraries: _Spring Boot, Django, Flask, FastAPI, OpenCV_
+- Programming: _Python, Java_
+- Frameworks & Libraries: _Spring Boot, FastAPI, Django, Flask, OpenCV_
 - Tools and Platforms: _Linux, Git, Docker, Bash_
 - Databases: _PostgreSQL, MySQL, MongoDB, SQLite, Firebase_
 - Others: _Unit Testing, REST API_
@@ -89,108 +196,6 @@ _Reading Links:_ <a href="https://medium.com/@meqdad.dev/solid-principles-with-p
 
 - 📝 **<a href="https://medium.com/@meqdad.dev" target="_blank">Medium Profile</a>**
 - 📝 **<a href="https://dev.to/meqdad_dev" target="_blank">DEV.to Profile</a>**
-
----------
-
-## 💼 Work experience 
-
-👨‍💻 **Back-end Engineer @ <a href="https://logestechs.com/" target="_blank">LogesTechs</a>**
-
-_May 2024 - Sep 2024_
-
-- Developed and maintained a logistics management system using Java, Spring Boot, and MySQL.
-- Designed and implemented RESTful APIs to handle over 30k+ daily data entries for delivery companies and fulfillment warehouses.
-- Integrated Jasper Reports to generate real-time reports for tracking logistics operations.
-- Worked in an Agile environment, collaborating closely with cross-functional teams to enhance system performance and scalability.
-
-👨‍💻 **Technical Engineer @ <a href="https://www.roboticx.ps/" target="_blank">RoboticX</a>**
-
-_Part Time, Sep 2023 - Present_
-
-- Review and manage e-Commerce accounts and products.
-- Store management for products and quantities.
-- Working on robotics and electronics projects.
-- Create content for new products and social media platforms.
-
-👨‍💻 **R&D Engineer @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a>**
-
-_Part Time - Sep 2023 - Jun 2024_
-
-- Responsible for research and development as an engineer.
-- Train and follow up with trainers at <a href="https://www.purpose.ps/" target="_blank">Purpose Academy</a> to help them grasp advanced and new technical subjects.
-- Assist the company team in staying updated with the latest technologies and tools in Robotics and AI.
-- Develop supplementary training materials for trainers (ToT Materials).
-- Conduct research and work on various subjects, including Computer Vision, Robotics, Internet of Things (IoT), and Web Development.
-
-👨‍💻 **Training Team Lead @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a>**
-
-_Jul 2020 - Aug 2023_
-
-- Led a team of trainers at the company.
-- Developed syllabi and training materials for advanced courses.
-- Provided training in various courses (School/University/Employees), such as Robotics, Computer Vision, Internet of Things (IoT), and Web Development using Python.
-- Developed open-source tools related to work, such as the Teachable Machine and Detectors World Python packages.
-- Conducted and led various training of trainers (ToT) projects in Robotics and Artificial Intelligence for renowned firms, including the Ministry of Education (MoE), Ministry of Telecommunication and Information Technology (MTIT), NGOs in the education sector, universities, and more.
-
-👨‍💻 **Back-end Engineer @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a>**
-
-_Jan 2023 - Apr 2023_
-
-- Worked on a Learning Management System (LMS) project for the company.
-- Served as a member of the back-end development team.
-- Project Tech Stack: Django REST, PostgreSQL, and AWS.
-
-👨‍💻 **Robotics and Coding Trainer @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a>**
-
-_Jun 2019 - Jul 2020_
-
-- Trained over 2,000 students at Purpose Academy, ranging from middle and high school to university levels.
-- Conducted workshops and courses in various subjects, including Robotics, Python, Web Development, Internet of Things (IoT), and Computer Vision.
-- Provided consultation services to private schools for incorporating robotics and AI strategic vision into their programs.
-
-👨‍💻 **Product and Account Manager @ SETS**
-
-_Feb 2019 - Aug 2020_
-
-- Provided installation services for SmartClass+ & Let's Talk! products from Robotel Inc.
-- Conducted training sessions and provided technical support to customers, ensuring thorough follow-up.
-- Worked on product awareness plans and targeted new areas for acquiring new customers.
-
-👨‍💻 **Front-end Developer @ JWAR**
-
-_Sep 2018 - Dec 2018_
-
-- Developed and designed the front-end of a dynamic reporting system for the JWAR startup using React, focusing on creating responsive and user-friendly interfaces.
-- Integrated with back-end APIs to display real-time data, building reusable React components to ensure modularity and maintainability within the web application.
-- Collaborated closely with the design and back-end team to align the front-end implementation with UX/UI design and ensure seamless data flow.
-
-👨‍💻 **Founder & Sales Engineer @ PPU Electronics Store**
-
-_Sep 2016 - May 2018_
-
-- Sold electronics, microcontrollers, and other electronic accessories for coursework and senior projects at the Faculty of Engineering and Technology at PPU.
-- Provided technical support to customers/students.
-- Supplied university labs with required tools such as microcontrollers, motors, sensors, and other related equipment.
-
-👨‍💻 **Systems Engineer @ BIS (Badawi Information System)**
-
-_Internship, Jun 2016 - Sep 2016_
-
-- Prepared servers and installed required operating systems such as Windows Server.
-- Worked with VMware vSphere for server resource management.
-- Installed storage units.
-- Conducted periodic visits and provided technical support to customers.
-
----------
-
-## 🎓 Education
-- **B.E.**, Computer Systems Engineering | <a href="https://ppu.edu/" target="_blank">Palestine Polytechnic University - PPU</a>
-
-Class of _2018 (Graduation)_
-
-  * Activities and Community: Member of IEEE Student Branch at University - PPU
-  * Organized Tech Workshops
-  * Founded PPU Electronics Online Store
 
 ---------
 
