@@ -199,6 +199,17 @@ _Reading Links:_ <a href="https://medium.com/@meqdad.dev/solid-principles-with-p
 
 ---------
 
+## 📜 Certificates
+
+- <a href="https://app.manara.tech/certificate/1729020389-FA86C228C3484162">Advanced SQL</a> | Manara | Oct 2024
+- <a href="https://app.manara.tech/certificate/1728752995-F0C4853618C716F3">Intermediate SQL</a> | Manara | Oct 2024
+- <a href="https://app.manara.tech/certificate/1729535705-E5C7FDC31B9444CE">NoSQL Databases Using MongoDB</a> | Manara | Oct 2024
+- <a href="https://www.linkedin.com/in/meqdad-darwish/details/certifications/1714556656421/single-media-viewer/?type=DOCUMENT&profileId=ACoAAB2uHhQBUCUl1vNRDbOyLLt5hL1UDwMGeoU">Computer Vision Bootcamp</a> | Gaza Sky Geeks - GSG | Apr 2024
+
+Find my other certificates from <a href="https://www.linkedin.com/in/meqdad-darwish/details/certifications/" target="_blank">here</a>.
+
+---------
+
 ## 🎓 Find Me Here
 - <a href="https://www.linkedin.com/in/meqdad-darwish/" target="_blank">LinkedIn</a>
 - <a href="https://twitter.com/MeqdadDev" target="_blank">X / Twitter</a>
