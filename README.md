@@ -22,52 +22,55 @@ _May 2024 - Sep 2024_
 
 _Part Time, Sep 2023 - May 2024_
 
-- Review and manage e-Commerce accounts and products.
-- Store management for products and quantities.
-- Working on robotics and electronics projects.
-- Create content for new products and social media platforms.
+- Designed and implemented robotics and electronics projects
+- Managed e-Commerce accounts, product listings, and inventory
+- Oversaw store operations and ensured accurate stock management
+- Conducted research on new tools in stock and prepared ready-to-use examples for sensors, microcontrollers, and other components
+- Categorized tools in inventory for easy access and streamlined operations
+- Provided technical support to customers, addressing inquiries and troubleshooting issues
+- Created content for product launches and social media campaigns
 
 👨‍💻 **R&D Engineer @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a>**
 
 _Part Time - Sep 2023 - Apr 2024_
 
-- Responsible for research and development as an engineer.
-- Train and follow up with trainers at <a href="https://www.purpose.ps/" target="_blank">Purpose Academy</a> to help them grasp advanced and new technical subjects.
-- Assist the company team in staying updated with the latest technologies and tools in Robotics and AI.
-- Develop supplementary training materials for trainers (ToT Materials).
-- Conduct research and work on various subjects, including Computer Vision, Robotics, Internet of Things (IoT), and Web Development.
+- Responsible for research and development as an engineer
+- Train and follow up with trainers at <a href="https://www.purpose.ps/" target="_blank">Purpose Academy</a> to help them grasp advanced and new technical subjects
+- Assist the company team in staying updated with the latest technologies and tools in Robotics and AI
+- Develop supplementary training materials for trainers (ToT Materials)
+- Conduct research and work on various subjects, including Computer Vision, Robotics, Internet of Things (IoT), and Web Development
 
 👨‍💻 **Training Team Lead @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a>**
 
 _Jan 2021 - Aug 2023_
 
-- Led a team of trainers at the company.
-- Developed syllabi and training materials for advanced courses.
-- Provided training in various courses (School/University/Employees), such as Robotics, Computer Vision, Internet of Things (IoT), and Web Development using Python.
-- Developed open-source tools related to work, such as the Teachable Machine and Detectors World Python packages.
-- Conducted and led various training of trainers (ToT) projects in Robotics and Artificial Intelligence for renowned firms, including the Ministry of Education (MoE), Ministry of Telecommunication and Information Technology (MTIT), NGOs in the education sector, universities, and more.
+- Led a team of trainers at the company
+- Developed syllabi and training materials for advanced courses
+- Provided training in various courses (School/University/Employees), such as Robotics, Computer Vision, Internet of Things (IoT), and Web Development using Python
+- Developed open-source tools related to work, such as the Teachable Machine and Detectors World Python packages
+- Conducted and led various training of trainers (ToT) projects in Robotics and Artificial Intelligence for renowned firms, including the Ministry of Education (MoE), Ministry of Telecommunication and Information Technology (MTIT), NGOs in the education sector, universities, and more
 
 👨‍💻 **Back-end Engineer @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a>**
 
 _Jan 2023 - Apr 2023_
 
-- Worked on a Learning Management System (LMS) project for the company.
-- Served as a member of the back-end development team.
-- Project Tech Stack: Django REST, PostgreSQL, and AWS.
+- Worked on a Learning Management System (LMS) project for the company
+- Served as a member of the back-end development team
+- Project Tech Stack: Django REST, PostgreSQL, and AWS
 
 👨‍💻 **Robotics and Coding Trainer @ <a href="https://www.purpose.ps/" target="_blank">Purpose for Smart Education</a>**
 
 _Sep 2019 - Aug 2023_
 
-- Trained over 2,000 students at Purpose Academy, ranging from middle and high school to university levels.
-- Conducted workshops and courses in various subjects, including Robotics, Python, Web Development, Internet of Things (IoT), and Computer Vision.
-- Provided consultation services to private schools for incorporating robotics and AI strategic vision into their programs.
+- Trained over 2,000 students at Purpose Academy, ranging from middle and high school to university levels
+- Conducted workshops and courses in various subjects, including Robotics, Python, Web Development, Internet of Things (IoT), and Computer Vision
+- Provided consultation services to private schools for incorporating robotics and AI strategic vision into their programs
 
 👨‍💻 **Product Manager & Technical Support @ SETS**
 
 _Feb 2019 - Aug 2020_
 
-- Installed, trained, and supported educators on SmartClass+ and Let's Talk! Product by Robotel Inc.
+- Installed, trained, and supported educators on SmartClass+ and Let's Talk! Product by Robotel Inc
 - Delivered product demos, conducted training sessions and provided technical support for educators
 - Worked on product awareness plans and targeted new areas for acquiring new customers
 - Managed the integration of smart tools into STEM education
@@ -80,25 +83,25 @@ _Sep 2018 - Dec 2018_
 
 - Developed and designed the front-end of a dynamic reporting system for the JWAR startup using React, focusing on creating responsive and user-friendly interfaces
 - Integrated with back-end APIs to display real-time data, building reusable React components to ensure modularity and maintainability within the web application
-- Collaborated closely with the design and back-end teams to align the front-end implementation with UX/UI design and ensure seamless data flow.
+- Collaborated closely with the design and back-end teams to align the front-end implementation with UX/UI design and ensure seamless data flow
 
 
 👨‍💻 **Founder & Sales Engineer @ PPU Electronics Store**
 
 _Sep 2016 - May 2018_
 
-- Sold electronics, microcontrollers, and other electronic accessories for coursework and senior projects at the Faculty of Engineering and Technology at PPU.
-- Provided technical support to customers/students.
-- Supplied university labs with required tools such as microcontrollers, motors, sensors, and other related equipment.
+- Sold electronics, microcontrollers, and other electronic accessories for coursework and senior projects at the Faculty of Engineering and Technology at PPU
+- Provided technical support to customers/students
+- Supplied university labs with required tools such as microcontrollers, motors, sensors, and other related equipment
 
 👨‍💻 **Systems Engineer @ BIS (Badawi Information System)**
 
 _Internship, Jun 2016 - Sep 2016_
 
-- Prepared servers and installed required operating systems such as Windows Server.
-- Worked with VMware vSphere for server resource management.
-- Installed storage units.
-- Conducted periodic visits and provided technical support to customers.
+- Prepared servers and installed required operating systems such as Windows Server
+- Worked with VMware vSphere for server resource management
+- Installed storage units
+- Conducted periodic visits and provided technical support to customers
 
 ---------
 
