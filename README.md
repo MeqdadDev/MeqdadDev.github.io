@@ -215,5 +215,6 @@ Find my other certificates from <a href="https://www.linkedin.com/in/meqdad-darw
 
 ## 🎓 Find Me Here
 - <a href="https://www.linkedin.com/in/meqdad-darwish/" target="_blank">LinkedIn</a>
+- <a href="https://qabilah.com/profile/meqdad/posts" target="_blank">Qabilah</a>
 - <a href="https://twitter.com/MeqdadDev" target="_blank">X / Twitter</a>
 - <a href="https://www.instagram.com/meqdad.dev/" target="_blank">Instagram</a>
