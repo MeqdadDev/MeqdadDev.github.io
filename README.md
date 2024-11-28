@@ -178,6 +178,9 @@ A lightweight Python package optimized for integrating exported models from Goog
 ## ✍️ Articles & Blogs
 My latest articles and blogs:
 
+- ### ACID Properties in Databases: What Happens Without Them?
+_Reading Links:_ <a href="https://medium.com/@meqdad.dev/acid-properties-in-databases-what-happens-without-them-c754e4bb4c1d" target="_blank">Medium</a> | <a href="https://dev.to/meqdad_dev/acid-properties-in-databases-what-happens-without-them-3o64" target="_blank">DEV.to</a> | <a href="https://gist.github.com/MeqdadDev/18c19896a9e801f51fbe904c38f3e996" target="_blank">GitHub</a>
+
 - ### Context Managers Demystified: Simplify Your Resource Handling in Python
 _Reading Links:_ <a href="https://medium.com/@meqdad.dev/context-managers-demystified-simplify-your-resource-handling-in-python-2394a9442c18" target="_blank">Medium</a> | <a href="https://dev.to/meqdad_dev/context-managers-demystified-simplify-your-resource-handling-in-python-4lc0" target="_blank">DEV.to</a> | <a href="https://gist.github.com/MeqdadDev/d6728dd03c97688efd9b096c991b1ad3" target="_blank">GitHub</a>
 
@@ -196,6 +199,8 @@ _Reading Links:_ <a href="https://medium.com/@meqdad.dev/building-simple-and-cus
 - ### SOLID Principles with Python | A story
 _Reading Links:_ <a href="https://medium.com/@meqdad.dev/solid-principles-with-python-a-story-35812c9da1f8" target="_blank">Medium</a> | <a href="https://dev.to/meqdad_dev/solid-principles-with-python-a-story-1eh8" target="_blank">DEV.to</a>
 
+
+[**Click here**](https://github.com/MeqdadDev/my-bloticles) to see the full list of my articles.
 
 - 📝 **<a href="https://medium.com/@meqdad.dev" target="_blank">Medium Profile</a>**
 - 📝 **<a href="https://dev.to/meqdad_dev" target="_blank">DEV.to Profile</a>**
