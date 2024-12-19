@@ -178,7 +178,10 @@ A lightweight Python package optimized for integrating exported models from Goog
 ## ✍️ Articles & Blogs
 My latest articles and blogs:
 
-- ### ACID Properties in Databases: What Happens Without Them?
+- ### ACID Properties in Databases — Part 2: Your Shield Against Transactional Chaos
+_Reading Links:_ <a href="https://medium.com/@meqdad.dev/acid-properties-in-databases-part-2-your-shield-against-transactional-chaos-107c2c0937bb" target="_blank">Medium</a> | <a href="https://dev.to/meqdad_dev/acid-properties-in-databases-your-shield-against-transactional-chaos-36ah" target="_blank">DEV.to</a> | <a href="https://gist.github.com/MeqdadDev/8e8e9f6c6a7cac957ad0d3b772a790c4" target="_blank">GitHub</a>
+
+- ### ACID Properties in Databases — Part 1: What Happens Without Them?
 _Reading Links:_ <a href="https://medium.com/@meqdad.dev/acid-properties-in-databases-what-happens-without-them-c754e4bb4c1d" target="_blank">Medium</a> | <a href="https://dev.to/meqdad_dev/acid-properties-in-databases-what-happens-without-them-3o64" target="_blank">DEV.to</a> | <a href="https://gist.github.com/MeqdadDev/18c19896a9e801f51fbe904c38f3e996" target="_blank">GitHub</a>
 
 - ### Context Managers Demystified: Simplify Your Resource Handling in Python
