@@ -1,0 +1,257 @@
+{
+  "personal": {
+    "name": "Meqdad A. Darwish",
+    "title": "Back-End Developer · Founder @ Bunyan Flow",
+    "tagline": "Full-stack of ownership · product-minded back-end engineer",
+    "contact": {
+      "email": "meqdad@example.com",
+      "github": "https://github.com/MeqdadDev",
+      "pypi": "https://pypi.org/user/meqdad/",
+      "website": "https://meqdaddev.github.io/"
+    },
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/meqdad-darwish/",
+      "twitter": "https://twitter.com/MeqdadDev",
+      "instagram": "https://www.instagram.com/meqdad.dev/",
+      "medium": "https://medium.com/@meqdad.dev",
+      "devto": "https://dev.to/meqdad_dev"
+    }
+  },
+  "summary": [
+    "I'm a back-end developer — building my own product, and open to my next role.",
+    "Bunyan Flow is a bilingual (Arabic/English) property management platform I founded. I'm building the MVP end to end — Java, Spring Boot, PostgreSQL — owning everything from requirements analysis and database design to RESTful services, KPI dashboards, and CI/CD with GitHub Actions. Solo founder means full SDLC, full accountability. No handoffs. If it's broken, it's mine to fix.",
+    "Before that: production back-end work at LogesTechs, where I built and maintained a logistics system processing 30k+ daily data entries — customer wallet features, audit logging, real-time reporting. Java, Spring Boot, MySQL, Agile teams.",
+    "I also spent years on the education side of tech — training 2,000+ learners, from students to Ministry of Education engineers, and leading ToT programmes in robotics and AI. That chapter taught me something most developers learn late: if you can't explain a system simply, you don't understand it yet. It made me a better engineer, and it's why building products people actually understand comes naturally to me.",
+    "Open source is where I sharpen the saw: my Python packages on PyPI have passed 50k+ downloads. I write technical articles on databases (SQL and NoSQL), clean code, AI, and programming — with Java and Spring Boot topics coming next.",
+    "Off the keyboard: volunteering, books. Half my reading is technical and the other half is everything else, because the best engineers I know are readers first."
+  ],
+  "skills": {
+    "programming": ["Python", "Java"],
+    "frameworks": ["Spring Boot", "FastAPI", "Django", "Flask", "OpenCV"],
+    "tools": ["Linux", "Git", "GitHub Actions", "Docker", "Bash"],
+    "databases": ["PostgreSQL", "MySQL", "MongoDB", "SQLite", "Firebase", "Hibernate"],
+    "embedded": ["Arduino", "ESP32", "ESP8266", "MicroPython", "Raspberry Pi", "micro:bit"],
+    "practices": ["REST API Design", "Unit Testing", "Agile Workflows", "Technical Documentation"]
+  },
+  "knowledgeFields": [
+    "Robotics: ROS",
+    "IoT: MQTT",
+    "Computer Vision: TensorFlow, TensorFlow Lite, YOLO Object Detection, MediaPipe",
+    "Data Science: NumPy, Pandas, Matplotlib, scikit-learn"
+  ],
+  "experience": [
+    {
+      "company": "Bunyan Flow",
+      "url": "https://bunyanflow.com",
+      "role": "Founder",
+      "date": "Jun 2026 – Present",
+      "details": [
+        "Founded Bunyan Flow, a property management platform for property owners and property management companies, covering buildings, units, tenants, lease contracts, rent payments, expenses, and financial and operational reports, with a fully bilingual Arabic/English interface.",
+        "Building the product MVP end to end with the back end as the core focus: Java, Spring Boot, and PostgreSQL, covering requirements analysis, database design, RESTful services, and KPI dashboards, managed across the full SDLC with GitHub and GitHub Actions under an Agile/Kanban workflow.",
+        "Owning the wider founder scope: project planning and management, server management, and early-customer support and relationship management (CRM)."
+      ]
+    },
+    {
+      "company": "RoboticX",
+      "url": "https://www.roboticx.ps/",
+      "role": "Technical Engineer",
+      "date": "Part Time, Sep 2023 – Oct 2024",
+      "details": [
+        "Designed and implemented robotics, computer vision, and electronics projects; prepared ready-to-use code examples for sensors, microcontrollers, and other components.",
+        "Provided technical support to customers, addressing inquiries and troubleshooting hardware and software issues.",
+        "Managed e-commerce product listings and inventory operations, and created content for product launches."
+      ]
+    },
+    {
+      "company": "LogesTechs",
+      "url": "https://logestechs.com/",
+      "role": "Back-End Engineer",
+      "date": "May 2024 – Sep 2024",
+      "details": [
+        "Developed and maintained a logistics management system using Java, JDBC, Spring Boot, and MySQL, designing RESTful APIs processing 30k+ daily data entries for delivery companies and fulfillment warehouses.",
+        "Implemented major features for the customer wallet service, managing transactions, points, and credits across customer accounts.",
+        "Built a logging service to track and audit account changes, and integrated Jasper Reports to generate real-time logistics operation reports.",
+        "Contributed to the package tracking system through bug fixes, performance improvements, and new features.",
+        "Worked in an Agile environment with cross-functional teams to improve system performance, scalability, and reliability."
+      ]
+    },
+    {
+      "company": "Purpose",
+      "url": "https://www.purpose.ps/",
+      "role": "R&D Engineer",
+      "date": "Part Time, Sep 2023 – Apr 2024",
+      "details": [
+        "Developed ToT materials and supplementary training resources on robotics, AI, and digital learning tools.",
+        "Coached and followed up with trainers at Purpose Academy on advanced technical subjects; supported the team in staying current with Robotics and AI tools.",
+        "Researched and prototyped educational technology solutions across Computer Vision, Robotics, IoT, and Web Development."
+      ]
+    },
+    {
+      "company": "Purpose",
+      "url": "https://www.purpose.ps/",
+      "role": "Training Team Lead",
+      "date": "Jan 2021 – Aug 2023",
+      "details": [
+        "Led the company's trainer team; designed syllabi and STEM/STEAM training materials for advanced courses delivered to schools, universities, and professionals.",
+        "Coordinated and led Training-of-Trainers (ToT) projects in Robotics and AI with the Ministry of Education (MoE), Ministry of Telecommunication and Information Technology (MTIT), NGOs, and universities.",
+        "Managed course planning and delivery schedules, followed up on trainer performance, and documented training outcomes for stakeholders.",
+        "Developed open-source teaching tools (Teachable Machine and Detectors World Python packages) used in classrooms and training programs."
+      ]
+    },
+    {
+      "company": "Purpose",
+      "url": "https://www.purpose.ps/",
+      "role": "Robotics and Coding Trainer",
+      "date": "Sep 2019 – Aug 2023",
+      "details": [
+        "Trained 2,000+ learners, from high school and university students to public- and private-sector employees, including Ministry of Education technical engineers and private-school ICT teachers, in Robotics, Python, Web Development, IoT, and Computer Vision.",
+        "Served as a consultant to private schools, helping them integrate robotics and STEM tools into effective, student-centered learning through both curricular and extra-curricular approaches, and advising on their robotics and AI strategic plans."
+      ]
+    },
+    {
+      "company": "Purpose",
+      "url": "https://www.purpose.ps/",
+      "role": "Back-End Engineer (LMS Project)",
+      "date": "Jan 2023 – Apr 2023",
+      "details": [
+        "Built an examination system with student account management as part of the LMS back-end team: designed the database schema (PostgreSQL), developed back-end services with Python and Django REST, implemented JWT authentication, and deployed on AWS EC2."
+      ]
+    },
+    {
+      "company": "SETS",
+      "url": null,
+      "role": "Product Manager & Technical Support",
+      "date": "Mar 2019 – Aug 2020",
+      "details": [
+        "Installed and trained educators on Robotel's SmartClass+ and Let's Talk! smart classroom products; delivered demos and led product awareness campaigns to expand STEM education tools in schools.",
+        "Provided ongoing technical support and documentation to education partners and managed the integration of smart tools into STEM education."
+      ]
+    },
+    {
+      "company": "JWAR",
+      "url": null,
+      "role": "Front-End Developer",
+      "date": "Sep 2018 – Dec 2018",
+      "details": [
+        "Built the front end of a dynamic reporting system in React: reusable components, responsive interfaces, and integration with back-end APIs for real-time data."
+      ]
+    },
+    {
+      "company": "PPU Electronics Store",
+      "url": null,
+      "role": "Founder & Sales Engineer",
+      "date": "Sep 2016 – May 2018",
+      "details": [
+        "Sold electronics, microcontrollers, and other electronic accessories for coursework and senior projects at the Faculty of Engineering and Technology at PPU.",
+        "Provided technical support to customers/students.",
+        "Supplied university labs with required tools such as microcontrollers, motors, sensors, and other related equipment."
+      ]
+    },
+    {
+      "company": "BIS (Badawi Information System)",
+      "url": null,
+      "role": "Systems Engineer",
+      "date": "Internship, Jun 2016 – Sep 2016",
+      "details": [
+        "Prepared servers and installed required operating systems such as Windows Server.",
+        "Worked with VMware vSphere for server resource management.",
+        "Installed storage units.",
+        "Conducted periodic visits and provided technical support to customers."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.E. Computer Systems Engineering",
+      "institution": "Palestine Polytechnic University (PPU)",
+      "year": "2018",
+      "notes": "Member of IEEE Student Branch. Organized Tech Workshops. Founded PPU Electronics Online Store."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Detectors World",
+      "url": "https://github.com/MeqdadDev/detectors-world",
+      "pypi": "https://pypi.org/project/detectors-world",
+      "tags": ["Computer Vision", "MediaPipe", "Detection"],
+      "description": "A Python package for building Computer Vision applications easily, built on top of MediaPipe. Available detectors: Hand, Face, Pose, and Face Mesh Detection."
+    },
+    {
+      "name": "Teachable Machine",
+      "url": "https://github.com/MeqdadDev/teachable-machine",
+      "pypi": "https://pypi.org/project/teachable-machine/",
+      "docs": "https://meqdaddev.github.io/teachable-machine/",
+      "tags": ["Computer Vision", "OpenCV", "Classification"],
+      "description": "A Python package to simplify integrating exported models from Google's Teachable Machine platform into various environments."
+    },
+    {
+      "name": "PixCraft",
+      "url": "https://github.com/MeqdadDev/PixCraft",
+      "tags": ["Image Processing", "Flask", "Computer Vision", "OpenCV"],
+      "description": "A powerful image processing and computer vision application that allows users to explore and manipulate digital images with an intuitive interface."
+    },
+    {
+      "name": "Teachable Machine Lite",
+      "url": "https://github.com/MeqdadDev/teachable-machine-lite",
+      "pypi": "https://pypi.org/project/teachable-machine-lite/",
+      "docs": "https://meqdaddev.github.io/teachable-machine-lite/",
+      "tags": ["Computer Vision", "OpenCV", "Classification", "Raspberry Pi"],
+      "description": "A lightweight Python package optimized for integrating Teachable Machine models into robotics and embedded systems environments."
+    }
+  ],
+  "articles": [
+    {
+      "title": "ACID Properties in Databases — Part 2: Your Shield Against Transactional Chaos",
+      "medium": "https://medium.com/@meqdad.dev/acid-properties-in-databases-part-2-your-shield-against-transactional-chaos-107c2c0937bb",
+      "devto": "https://dev.to/meqdad_dev/acid-properties-in-databases-your-shield-against-transactional-chaos-36ah"
+    },
+    {
+      "title": "ACID Properties in Databases — Part 1: What Happens Without Them?",
+      "medium": "https://medium.com/@meqdad.dev/acid-properties-in-databases-what-happens-without-them-c754e4bb4c1d",
+      "devto": "https://dev.to/meqdad_dev/acid-properties-in-databases-what-happens-without-them-3o64"
+    },
+    {
+      "title": "Context Managers Demystified: Simplify Your Resource Handling in Python",
+      "medium": "https://medium.com/@meqdad.dev/context-managers-demystified-simplify-your-resource-handling-in-python-2394a9442c18",
+      "devto": "https://dev.to/meqdad_dev/context-managers-demystified-simplify-your-resource-handling-in-python-4lc0"
+    },
+    {
+      "title": "Stop Creating Repos To Share Your Code Snippets — Use GitHub Gists Instead",
+      "medium": "https://medium.com/@meqdad.dev/stop-creating-repos-to-share-your-code-snippets-use-github-gists-instead-1708b3bd27dd",
+      "devto": "https://dev.to/meqdad_dev/stop-creating-repos-to-share-your-code-snippets-use-github-gists-instead-4j5c"
+    },
+    {
+      "title": "Lessons I've Learned: 10 Tips for Successful Open-Source Project Development",
+      "medium": "https://medium.com/@meqdad.dev/lessons-ive-learned-10-tips-for-successful-open-source-project-development-38a166fa0a13",
+      "devto": "https://dev.to/meqdad_dev/lessons-ive-learned-10-tips-for-successful-open-source-project-development-5dl9"
+    },
+    {
+      "title": "Mastering MongoDB Aggregation: A Journey from Fundamentals to Advanced Optimization",
+      "medium": "https://medium.com/@meqdad.dev/mastering-mongodb-aggregation-a-journey-from-fundamentals-to-advanced-optimization-a1be02e816a0",
+      "devto": "https://dev.to/meqdad_dev/mastering-mongodb-aggregation-a-journey-from-fundamentals-to-advanced-optimization-2eji"
+    },
+    {
+      "title": "Building Simple and Customizable Image Classifier with Teachable Machine and Python",
+      "medium": "https://medium.com/@meqdad.dev/building-simple-and-customizable-image-classifier-with-teachable-machine-and-python-30d50169d638",
+      "devto": "https://dev.to/meqdad_dev/building-simple-and-customizable-image-classifier-with-teachable-machine-and-python-4jim"
+    },
+    {
+      "title": "SOLID Principles with Python | A story",
+      "medium": "https://medium.com/@meqdad.dev/solid-principles-with-python-a-story-35812c9da1f8",
+      "devto": "https://dev.to/meqdad_dev/solid-principles-with-python-a-story-1eh8"
+    }
+  ],
+  "certificates": [
+    { "title": "Advanced SQL", "issuer": "Manara", "date": "Oct 2024", "url": "https://app.manara.tech/certificate/1729020389-FA86C228C3484162" },
+    { "title": "Intermediate SQL", "issuer": "Manara", "date": "Oct 2024", "url": "https://app.manara.tech/certificate/1728752995-F0C4853618C716F3" },
+    { "title": "NoSQL Databases Using MongoDB", "issuer": "Manara", "date": "Oct 2024", "url": "https://app.manara.tech/certificate/1729535705-E5C7FDC31B9444CE" },
+    { "title": "English Certificate (B2 Upper Intermediate)", "issuer": "EF SET", "date": "Oct 2024", "url": "https://cert.efset.org/en/WZRqAh" },
+    { "title": "Computer Vision Bootcamp", "issuer": "Gaza Sky Geeks", "date": "Apr 2024", "url": "https://www.linkedin.com/in/meqdad-darwish/details/certifications/1714556656421/single-media-viewer/?type=DOCUMENT&profileId=ACoAAB2uHhQBUCUl1vNRDbOyLLt5hL1UDwMGeoU" }
+  ],
+  "footerStats": [
+    "50k+ PyPI downloads",
+    "2,000+ learners trained",
+    "Technical writing (SQL, NoSQL, AI, Java)",
+    "Robotics · AI · Computer Vision"
+  ]
+}
