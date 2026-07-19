@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meqdad A. Darwish · Resume</title>
+  <style>
+    :root {
+      --bg-body: #f4f2ee;
+      --bg-card: #ffffff;
+      --bg-sidebar: #f8f6f2;
+      --bg-summary: #faf9f7;
+      --bg-skill: #ffffff;
+      --bg-date: #f1efeb;
+      --bg-stat: #f5f3f0;
+      --bg-project: #faf9f7;
+      --text-primary: #0f172a;
+      --text-secondary: #475569;
+      --text-muted: #64748b;
+      --border-light: #e8e6e1;
+      --border-medium: #d6d3cd;
+      --accent: #2d3748;
+      --accent-hover: #1a202c;
+      --shadow: 0 12px 40px rgba(0, 0, 0, 0.06);
+      --toggle-bg: #d6d3cd;
+    }
+
+    [data-theme="dark"] {
+      --bg-body: #12161c;
+      --bg-card: #1e293b;
+      --bg-sidebar: #1a202c;
+      --bg-summary: #2d3748;
+      --bg-skill: #2d3748;
+      --bg-date: #2d3748;
+      --bg-stat: #2d3748;
+      --bg-project: #1a202c;
+      --text-primary: #f1f5f9;
+      --text-secondary: #cbd5e1;
+      --text-muted: #94a3b8;
+      --border-light: #334155;
+      --border-medium: #475569;
+      --accent: #a0aec0;
+      --accent-hover: #cbd5e1;
+      --shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+      --toggle-bg: #475569;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      background: var(--bg-body);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 2rem 1.5rem;
+      line-height: 1.6;
+      color: var(--text-primary);
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .resume {
+      max-width: 1000px;
+      width: 100%;
+      background: var(--bg-card);
+      box-shadow: var(--shadow);
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      border: 1px solid var(--border-medium);
+      transition: background 0.3s, border-color 0.3s, box-shadow 0.3s;
+      position: relative;
+    }
+
+    .theme-toggle {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--bg-sidebar);
+      padding: 0.3rem 0.6rem 0.3rem 0.8rem;
+      border-radius: 30px;
+      border: 1px solid var(--border-medium);
+      box-shadow: var(--shadow);
+      transition: background 0.3s, border-color 0.3s;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .theme-toggle:hover {
+      border-color: var(--accent);
+    }
+
+    .theme-toggle .icon {
+      font-size: 1.1rem;
+      line-height: 1;
+      transition: transform 0.2s;
+    }
+
+    .theme-toggle .icon.sun {
+      opacity: 1;
+    }
+
+    .theme-toggle .icon.moon {
+      opacity: 0.4;
+    }
+
+    [data-theme="dark"] .theme-toggle .icon.sun {
+      opacity: 0.4;
+    }
+
+    [data-theme="dark"] .theme-toggle .icon.moon {
+      opacity: 1;
+    }
+
+    .theme-toggle .slider {
+      position: relative;
+      width: 38px;
+      height: 20px;
+      background: var(--toggle-bg);
+      border-radius: 30px;
+      transition: background 0.3s;
+      border: 1px solid var(--border-medium);
+      flex-shrink: 0;
+    }
+
+    .theme-toggle .slider::after {
+      content: "";
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      width: 14px;
+      height: 14px;
+      background: white;
+      border-radius: 50%;
+      transition: transform 0.3s, background 0.3s;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    }
+
+    [data-theme="dark"] .theme-toggle .slider::after {
+      transform: translateX(18px);
+      background: #f1f5f9;
+    }
+
+    /* ── SIDEBAR ── */
+    .sidebar {
+      background: var(--bg-sidebar);
+      padding: 2.4rem 2rem;
+      border-right: 1px solid var(--border-medium);
+      transition: background 0.3s, border-color 0.3s;
+    }
+
+    .sidebar .name {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--text-primary);
+      line-height: 1.1;
+      margin-bottom: 0.2rem;
+    }
+
+    .sidebar .title {
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+      margin-bottom: 1.2rem;
+    }
+
+    .sidebar .title a {
+      color: var(--text-primary);
+      text-decoration: none;
+      font-weight: 600;
+      border-bottom: 1.5px solid var(--border-medium);
+    }
+
+    .sidebar .title a:hover {
+      border-bottom-color: var(--accent);
+    }
+
+    .sidebar .divider {
+      border: 0;
+      height: 2px;
+      background: var(--border-medium);
+      margin: 1.4rem 0;
+      transition: background 0.3s;
+    }
+
+    .sidebar h3 {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-weight: 700;
+      color: var(--text-muted);
+      margin-bottom: 0.8rem;
+    }
+
+    .contact-item {
+      font-size: 0.85rem;
+      color: var(--text-primary);
+      margin-bottom: 0.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      word-break: break-all;
+    }
+
+    .contact-item a {
+      color: var(--text-primary);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .contact-item a:hover {
+      border-bottom-color: var(--accent);
+    }
+
+    .social-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .social-links a {
+      font-size: 0.8rem;
+      color: var(--text-primary);
+      text-decoration: none;
+      background: var(--bg-skill);
+      border: 1px solid var(--border-medium);
+      padding: 0.15rem 0.7rem;
+      transition: background 0.3s, border-color 0.3s, color 0.3s;
+    }
+
+    .social-links a:hover {
+      border-color: var(--accent);
+    }
+
+    .skill-group {
+      margin-bottom: 0.6rem;
+    }
+
+    .skill-group-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-bottom: 0.3rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .skill-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+
+    .skill-tags span {
+      background: var(--bg-skill);
+      border: 1px solid var(--border-medium);
+      padding: 0.15rem 0.9rem;
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: var(--text-primary);
+      letter-spacing: 0.01em;
+      transition: background 0.3s, border-color 0.3s, color 0.3s;
+    }
+
+    .sidebar .meta-note {
+      margin-top: 2rem;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border-medium);
+      padding-top: 1rem;
+      line-height: 1.8;
+      transition: border-color 0.3s, color 0.3s;
+    }
+
+    .sidebar .meta-note strong {
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+
+    /* ── MAIN CONTENT ── */
+    .main {
+      padding: 2.4rem 2.8rem 2.8rem 2.4rem;
+      background: var(--bg-card);
+      transition: background 0.3s;
+    }
+
+    .main .top-tagline {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      letter-spacing: 0.03em;
+      margin-bottom: 1.6rem;
+      padding-bottom: 0.8rem;
+      border-bottom: 2px solid var(--border-light);
+      transition: color 0.3s, border-color 0.3s;
+    }
+
+    .main .top-tagline strong {
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+
+    .main .section-title {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-weight: 700;
+      color: var(--text-muted);
+      margin: 2rem 0 0.8rem 0;
+      padding-bottom: 0.4rem;
+      border-bottom: 2px solid var(--border-light);
+      transition: color 0.3s, border-color 0.3s;
+    }
+
+    .main .section-title:first-of-type {
+      margin-top: 0;
+    }
+
+    /* summary */
+    .summary {
+      background: var(--bg-summary);
+      padding: 1.2rem 1.4rem;
+      border-left: 4px solid var(--accent);
+      margin-bottom: 0.5rem;
+      transition: background 0.3s, border-color 0.3s;
+    }
+
+    .summary p {
+      font-size: 0.95rem;
+      color: var(--text-primary);
+      margin-bottom: 0.3rem;
+    }
+
+    .summary .highlight {
+      background: var(--border-light);
+      padding: 0.05rem 0.5rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      transition: background 0.3s, color 0.3s;
+    }
+
+    /* experience */
+    .exp {
+      margin-bottom: 1.6rem;
+    }
+
+    .exp-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 0.2rem 0.8rem;
+    }
+
+    .exp-header .role {
+      font-size: 1.05rem;
+      font-weight: 650;
+      color: var(--text-primary);
+    }
+
+    .exp-header .role a {
+      color: var(--text-primary);
+      text-decoration: none;
+      border-bottom: 2px solid transparent;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .exp-header .role a:hover {
+      border-bottom-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .exp-header .date {
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      background: var(--bg-date);
+      padding: 0.05rem 1rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      border: 1px solid var(--border-light);
+      transition: background 0.3s, color 0.3s, border-color 0.3s;
+    }
+
+    .exp ul {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 0.2rem;
+    }
+
+    .exp ul li {
+      position: relative;
+      padding-left: 1.4rem;
+      font-size: 0.92rem;
+      color: var(--text-primary);
+      margin-bottom: 0.15rem;
+      transition: color 0.3s;
+    }
+
+    .exp ul li::before {
+      content: "\2014";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: 300;
+      transition: color 0.3s;
+    }
+
+    /* education */
+    .edu {
+      margin-bottom: 1rem;
+    }
+
+    .edu .degree {
+      font-size: 0.95rem;
+      font-weight: 650;
+      color: var(--text-primary);
+    }
+
+    .edu .institution {
+      font-size: 0.88rem;
+      color: var(--text-secondary);
+    }
+
+    .edu .edu-year {
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      background: var(--bg-date);
+      padding: 0.05rem 0.8rem;
+      border: 1px solid var(--border-light);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .edu .edu-notes {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-top: 0.2rem;
+    }
+
+    /* skill section in main */
+    .skill-section-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.6rem 1.6rem;
+    }
+
+    .skill-section-item .label {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.3rem;
+    }
+
+    .skill-section-item .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+    }
+
+    .skill-section-item .tags span {
+      background: var(--bg-skill);
+      border: 1px solid var(--border-medium);
+      padding: 0.1rem 0.6rem;
+      font-size: 0.78rem;
+      font-weight: 500;
+      color: var(--text-primary);
+      transition: background 0.3s, border-color 0.3s, color 0.3s;
+    }
+
+    /* knowledge fields */
+    .knowledge-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .knowledge-list li {
+      font-size: 0.88rem;
+      color: var(--text-primary);
+      padding: 0.15rem 0;
+    }
+
+    /* projects */
+    .project {
+      background: var(--bg-project);
+      border: 1px solid var(--border-light);
+      padding: 1rem 1.2rem;
+      margin-bottom: 0.8rem;
+      transition: background 0.3s, border-color 0.3s;
+    }
+
+    .project .proj-name {
+      font-size: 0.95rem;
+      font-weight: 650;
+      color: var(--text-primary);
+    }
+
+    .project .proj-name a {
+      color: var(--text-primary);
+      text-decoration: none;
+      border-bottom: 2px solid transparent;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .project .proj-name a:hover {
+      border-bottom-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .project .proj-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin: 0.3rem 0;
+    }
+
+    .project .proj-links a {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border-light);
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .project .proj-links a:hover {
+      border-bottom-color: var(--accent);
+      color: var(--text-primary);
+    }
+
+    .project .proj-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+      margin: 0.4rem 0;
+    }
+
+    .project .proj-tags span {
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      background: var(--bg-stat);
+      padding: 0.05rem 0.5rem;
+      border: 1px solid var(--border-light);
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      transition: background 0.3s, border-color 0.3s;
+    }
+
+    .project .proj-desc {
+      font-size: 0.88rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+
+    /* articles */
+    .article {
+      margin-bottom: 0.6rem;
+      font-size: 0.9rem;
+    }
+
+    .article .art-title {
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+
+    .article .art-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 0.15rem;
+    }
+
+    .article .art-links a {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border-light);
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .article .art-links a:hover {
+      border-bottom-color: var(--accent);
+      color: var(--text-primary);
+    }
+
+    /* certificates */
+    .cert {
+      margin-bottom: 0.4rem;
+      font-size: 0.88rem;
+    }
+
+    .cert .cert-title {
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+
+    .cert .cert-title a {
+      color: var(--text-primary);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .cert .cert-title a:hover {
+      border-bottom-color: var(--accent);
+    }
+
+    .cert .cert-meta {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    /* footer stats */
+    .footer-stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 2rem;
+      margin-top: 2.2rem;
+      padding-top: 1rem;
+      border-top: 2px solid var(--border-light);
+      transition: border-color 0.3s;
+    }
+
+    .footer-stats span {
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+      background: var(--bg-stat);
+      padding: 0.1rem 1.2rem;
+      border: 1px solid var(--border-light);
+      letter-spacing: 0.02em;
+      transition: background 0.3s, color 0.3s, border-color 0.3s;
+    }
+
+    /* ── responsive ── */
+    @media (max-width: 780px) {
+      .resume {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        border-right: 0;
+        border-bottom: 1px solid var(--border-medium);
+        padding: 1.8rem;
+      }
+
+      .main {
+        padding: 1.8rem;
+      }
+
+      .exp-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .skill-section-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .theme-toggle {
+        top: 0.6rem;
+        right: 0.6rem;
+        padding: 0.2rem 0.5rem 0.2rem 0.6rem;
+      }
+
+      .theme-toggle .slider {
+        width: 32px;
+        height: 18px;
+      }
+
+      .theme-toggle .slider::after {
+        width: 12px;
+        height: 12px;
+      }
+
+      [data-theme="dark"] .theme-toggle .slider::after {
+        transform: translateX(14px);
+      }
+    }
+
+    @media (max-width: 450px) {
+      body {
+        padding: 0.5rem;
+      }
+
+      .sidebar {
+        padding: 1.2rem;
+      }
+
+      .main {
+        padding: 1.2rem;
+      }
+
+      .sidebar .name {
+        font-size: 1.6rem;
+      }
+
+      .summary {
+        padding: 0.8rem 1rem;
+      }
+
+      .footer-stats {
+        gap: 0.4rem 1rem;
+      }
+
+      .footer-stats span {
+        padding: 0.05rem 0.8rem;
+        font-size: 0.7rem;
+      }
+
+      .theme-toggle .icon {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="resume" id="app">
+    <!-- Theme toggle -->
+    <div class="theme-toggle" id="themeToggle" role="button" tabindex="0" aria-label="Toggle theme">
+      <span class="icon sun">☀️</span>
+      <span class="slider"></span>
+      <span class="icon moon">🌙</span>
+    </div>
+
+    <!-- ===== SIDEBAR ===== -->
+    <aside class="sidebar" id="sidebar">
+      <!-- populated by JS -->
+    </aside>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main class="main" id="mainContent">
+      <!-- populated by JS -->
+    </main>
+  </div>
+
+  <script>
+    // ── Theme toggle logic ──
+    (function initTheme() {
+      const toggle = document.getElementById('themeToggle');
+      const html = document.documentElement;
+
+      // Load saved theme or default to light
+      const saved = localStorage.getItem('resume-theme') || 'light';
+      html.setAttribute('data-theme', saved);
+
+      toggle.addEventListener('click', () => {
+        const current = html.getAttribute('data-theme');
+        const next = current === 'light' ? 'dark' : 'light';
+        html.setAttribute('data-theme', next);
+        localStorage.setItem('resume-theme', next);
+      });
+
+      // Keyboard support
+      toggle.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          toggle.click();
+        }
+      });
+    })();
+
+    // ── Fetch and render data ──
+    async function loadResume() {
+      try {
+        const res = await fetch('data.json');
+        if (!res.ok) throw new Error('Failed to load data.json');
+        const data = await res.json();
+
+        const contact = data.personal.contact;
+        const social = data.personal.social || {};
+
+        // ── Sidebar ──
+        document.getElementById('sidebar').innerHTML = `
+          <div class="name">${data.personal.name}</div>
+          <div class="title">
+            ${data.personal.title.replace('Bunyan Flow', '<a href="https://bunyanflow.com">Bunyan Flow</a>')}
+          </div>
+          <hr class="divider" />
+          <h3>Contact</h3>
+          <div class="contact-item">&#9993; <a href="mailto:${contact.email}">${contact.email}</a></div>
+          <div class="contact-item">&#9000; <a href="${contact.github}">github.com/MeqdadDev</a></div>
+          <div class="contact-item">&#128013; <a href="${contact.pypi}">pypi.org/user/meqdad</a></div>
+          <div class="contact-item">&#127760; <a href="${contact.website}">meqdaddev.github.io</a></div>
+          ${social.linkedin ? `<div class="contact-item">&#128279; <a href="${social.linkedin}">LinkedIn</a></div>` : ''}
+          ${social.twitter ? `<div class="contact-item">&#128038; <a href="${social.twitter}">X / Twitter</a></div>` : ''}
+          <hr class="divider" />
+          <h3>Technical Skills</h3>
+          ${Object.entries(data.skills).map(([cat, items]) => `
+            <div class="skill-group">
+              <div class="skill-group-label">${cat}</div>
+              <div class="skill-tags">
+                ${items.map(s => `<span>${s}</span>`).join('')}
+              </div>
+            </div>
+          `).join('')}
+          <div class="meta-note">
+            <strong>50k+</strong> PyPI downloads<br />
+            <strong>2,000+</strong> learners trained<br />
+            Technical writing &middot; Robotics &middot; AI
+          </div>
+        `;
+
+        // ── Main content ──
+        const main = document.getElementById('mainContent');
+
+        const summaryHTML = data.summary.map(p => `<p>${p}</p>`).join('');
+
+        const expHTML = data.experience.map(exp => `
+          <div class="exp">
+            <div class="exp-header">
+              <span class="role">${exp.url ? `<a href="${exp.url}">${exp.role} @ ${exp.company}</a>` : `${exp.role} @ ${exp.company}`}</span>
+              <span class="date">${exp.date}</span>
+            </div>
+            <ul>
+              ${exp.details.map(d => `<li>${d}</li>`).join('')}
+            </ul>
+          </div>
+        `).join('');
+
+        const eduHTML = data.education.map(ed => `
+          <div class="edu">
+            <div class="degree">${ed.degree} <span class="edu-year">${ed.year}</span></div>
+            <div class="institution">${ed.institution}</div>
+            ${ed.notes ? `<div class="edu-notes">${ed.notes}</div>` : ''}
+          </div>
+        `).join('');
+
+        const skillsHTML = `
+          <div class="skill-section-grid">
+            ${Object.entries(data.skills).map(([cat, items]) => `
+              <div class="skill-section-item">
+                <div class="label">${cat}</div>
+                <div class="tags">${items.map(s => `<span>${s}</span>`).join('')}</div>
+              </div>
+            `).join('')}
+          </div>
+        `;
+
+        const knowledgeHTML = data.knowledgeFields
+          ? `<ul class="knowledge-list">${data.knowledgeFields.map(k => `<li>${k}</li>`).join('')}</ul>`
+          : '';
+
+        const projectsHTML = data.projects.map(p => `
+          <div class="project">
+            <div class="proj-name"><a href="${p.url}">${p.name}</a></div>
+            <div class="proj-links">
+              <a href="${p.url}">GitHub</a>
+              ${p.pypi ? `<a href="${p.pypi}">PyPI</a>` : ''}
+              ${p.docs ? `<a href="${p.docs}">Docs</a>` : ''}
+            </div>
+            <div class="proj-tags">${p.tags.map(t => `<span>${t}</span>`).join('')}</div>
+            <div class="proj-desc">${p.description}</div>
+          </div>
+        `).join('');
+
+        const articlesHTML = data.articles.map(a => `
+          <div class="article">
+            <div class="art-title">${a.title}</div>
+            <div class="art-links">
+              ${a.medium ? `<a href="${a.medium}">Medium</a>` : ''}
+              ${a.devto ? `<a href="${a.devto}">DEV.to</a>` : ''}
+            </div>
+          </div>
+        `).join('');
+
+        const certsHTML = data.certificates.map(c => `
+          <div class="cert">
+            <span class="cert-title"><a href="${c.url}">${c.title}</a></span>
+            <div class="cert-meta">${c.issuer} &middot; ${c.date}</div>
+          </div>
+        `).join('');
+
+        const statsHTML = data.footerStats.map(s => `<span>${s}</span>`).join('');
+
+        main.innerHTML = `
+          <div class="top-tagline"><strong>${data.personal.tagline}</strong></div>
+          <section class="summary">${summaryHTML}</section>
+
+          <h2 class="section-title">Experience</h2>
+          ${expHTML}
+
+          <h2 class="section-title">Education</h2>
+          ${eduHTML}
+
+          <h2 class="section-title">Technical Skills</h2>
+          ${skillsHTML}
+
+          ${data.knowledgeFields ? `<h2 class="section-title">Knowledge Fields</h2>${knowledgeHTML}` : ''}
+
+          <h2 class="section-title">Projects &amp; Open Source</h2>
+          ${projectsHTML}
+
+          <h2 class="section-title">Articles &amp; Blogs</h2>
+          ${articlesHTML}
+
+          <h2 class="section-title">Certificates</h2>
+          ${certsHTML}
+
+          <div class="footer-stats">${statsHTML}</div>
+        `;
+      } catch (err) {
+        document.getElementById('mainContent').innerHTML = `
+          <p style="color: var(--text-primary); padding: 2rem; text-align: center;">
+            Could not load resume data. Make sure <code>data.json</code> exists alongside this file.
+          </p>
+        `;
+        console.error(err);
+      }
+    }
+
+    loadResume();
+  </script>
+
+</body>
+
+</html>
