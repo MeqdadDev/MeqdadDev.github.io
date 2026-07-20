@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Meqdad A. Darwish · Resume</title>
+  <title>Meqdad A. Darwish Resume</title>
   <style>
     :root {
       --bg-body: #f4f2ee;
@@ -785,6 +785,7 @@
 
         const contact = data.personal.contact;
         const social = data.personal.social || {};
+        const stats = data.stats;
 
         // ── Sidebar ──
         document.getElementById('sidebar').innerHTML = `
@@ -795,26 +796,22 @@
           <hr class="divider" />
           <h3>Contact</h3>
           <div class="contact-item">&#9993; <a href="mailto:${contact.email}">${contact.email}</a></div>
-          <div class="contact-item">&#9000; <a href="${contact.github}">github.com/MeqdadDev</a></div>
-          <div class="contact-item">&#128013; <a href="${contact.pypi}">pypi.org/user/meqdad</a></div>
-          <div class="contact-item">&#127760; <a href="${contact.website}">meqdaddev.github.io</a></div>
+          <div class="contact-item">&#9000; <a href="${contact.github}">GitHub</a></div>
+          <div class="contact-item">&#128013; <a href="${contact.pypi}">PyPI</a></div>
+          <div class="contact-item">&#127760; <a href="${contact.website}">Website</a></div>
           ${social.linkedin ? `<div class="contact-item">&#128279; <a href="${social.linkedin}">LinkedIn</a></div>` : ''}
           ${social.twitter ? `<div class="contact-item">&#128038; <a href="${social.twitter}">X / Twitter</a></div>` : ''}
           <hr class="divider" />
-          <h3>Technical Skills</h3>
-          ${Object.entries(data.skills).map(([cat, items]) => `
-            <div class="skill-group">
-              <div class="skill-group-label">${cat}</div>
-              <div class="skill-tags">
-                ${items.map(s => `<span>${s}</span>`).join('')}
-              </div>
-            </div>
-          `).join('')}
+          <h3>Impact</h3>
+          ${stats.map(item => `${item}<br />`).join('')}
+          <!-- 
           <div class="meta-note">
-            <strong>50k+</strong> PyPI downloads<br />
-            <strong>2,000+</strong> learners trained<br />
-            Technical writing &middot; Robotics &middot; AI
+            Open-source Contributor <br />
+            <strong>50k+</strong> Downloads for my Python Packages<br />
+            <strong>2,000+</strong> Learners Trained<br />
+            Technical Writing (Database &middot; AI &middot; Computer Vision &middot; Python)
           </div>
+          -->
         `;
 
         // ── Main content ──
@@ -887,7 +884,7 @@
           </div>
         `).join('');
 
-        const statsHTML = data.footerStats.map(s => `<span>${s}</span>`).join('');
+        // const statsHTML = data.stats.map(s => `<span>${s}</span>`).join('');
 
         main.innerHTML = `
           <div class="top-tagline"><strong>${data.personal.tagline}</strong></div>
@@ -913,7 +910,7 @@
           <h2 class="section-title">Certificates</h2>
           ${certsHTML}
 
-          <div class="footer-stats">${statsHTML}</div>
+          <!-- <div class="footer-stats">${statsHTML}</div> -->
         `;
       } catch (err) {
         document.getElementById('mainContent').innerHTML = `

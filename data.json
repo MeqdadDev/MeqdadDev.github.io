@@ -2,9 +2,9 @@
   "personal": {
     "name": "Meqdad A. Darwish",
     "title": "Back-End Developer · Founder @ Bunyan Flow",
-    "tagline": "Full-stack of ownership · product-minded back-end engineer",
+    "tagline": "Software Engineer (Back-end) ✦ Product-minded ✦ Technical Writer ✦ Robotics ✦ EdTech",
     "contact": {
-      "email": "meqdad@example.com",
+      "email": "meqdad.darweesh@gmail.com",
       "github": "https://github.com/MeqdadDev",
       "pypi": "https://pypi.org/user/meqdad/",
       "website": "https://meqdaddev.github.io/"
@@ -248,10 +248,10 @@
     { "title": "English Certificate (B2 Upper Intermediate)", "issuer": "EF SET", "date": "Oct 2024", "url": "https://cert.efset.org/en/WZRqAh" },
     { "title": "Computer Vision Bootcamp", "issuer": "Gaza Sky Geeks", "date": "Apr 2024", "url": "https://www.linkedin.com/in/meqdad-darwish/details/certifications/1714556656421/single-media-viewer/?type=DOCUMENT&profileId=ACoAAB2uHhQBUCUl1vNRDbOyLLt5hL1UDwMGeoU" }
   ],
-  "footerStats": [
-    "50k+ PyPI downloads",
-    "2,000+ learners trained",
-    "Technical writing (SQL, NoSQL, AI, Java)",
-    "Robotics · AI · Computer Vision"
+  "stats": [
+    "Open-source Contributor",
+    "<strong>50k+</strong> Downloads for my Python Packages",
+    "<strong>2,000+</strong> Learners Trained",
+    "Technical Writing (Database, Computer Vision, Python)"
   ]
 }
