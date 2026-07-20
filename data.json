@@ -2,7 +2,7 @@
   "personal": {
     "name": "Meqdad A. Darwish",
     "title": "Back-End Developer · Founder @ Bunyan Flow",
-    "tagline": "Software Engineer (Back-end) ✦ Product-minded ✦ Technical Writer ✦ Robotics ✦ EdTech",
+    "tagline": "Back-end ✦ Product-minded ✦ Technical Writer ✦ Robotics ✦ EdTech",
     "contact": {
       "email": "meqdad.darweesh@gmail.com",
       "github": "https://github.com/MeqdadDev",
@@ -26,12 +26,46 @@
     "Off the keyboard: volunteering, books. Half my reading is technical and the other half is everything else, because the best engineers I know are readers first."
   ],
   "skills": {
-    "programming": ["Python", "Java"],
-    "frameworks": ["Spring Boot", "FastAPI", "Django", "Flask", "OpenCV"],
-    "tools": ["Linux", "Git", "GitHub Actions", "Docker", "Bash"],
-    "databases": ["PostgreSQL", "MySQL", "MongoDB", "SQLite", "Firebase", "Hibernate"],
-    "embedded": ["Arduino", "ESP32", "ESP8266", "MicroPython", "Raspberry Pi", "micro:bit"],
-    "practices": ["REST API Design", "Unit Testing", "Agile Workflows", "Technical Documentation"]
+    "programming": [
+      "Python",
+      "Java"
+    ],
+    "frameworks": [
+      "Spring Boot",
+      "FastAPI",
+      "Django",
+      "Flask",
+      "OpenCV"
+    ],
+    "tools": [
+      "Linux",
+      "Git",
+      "GitHub Actions",
+      "Docker",
+      "Bash"
+    ],
+    "databases": [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "SQLite",
+      "Firebase",
+      "Hibernate"
+    ],
+    "embedded": [
+      "Arduino",
+      "ESP32",
+      "ESP8266",
+      "MicroPython",
+      "Raspberry Pi",
+      "micro:bit"
+    ],
+    "practices": [
+      "REST API Design",
+      "Unit Testing",
+      "Agile Workflows",
+      "Technical Documentation"
+    ]
   },
   "knowledgeFields": [
     "Robotics: ROS",
@@ -173,7 +207,11 @@
       "name": "Detectors World",
       "url": "https://github.com/MeqdadDev/detectors-world",
       "pypi": "https://pypi.org/project/detectors-world",
-      "tags": ["Computer Vision", "MediaPipe", "Detection"],
+      "tags": [
+        "Computer Vision",
+        "MediaPipe",
+        "Detection"
+      ],
       "description": "A Python package for building Computer Vision applications easily, built on top of MediaPipe. Available detectors: Hand, Face, Pose, and Face Mesh Detection."
     },
     {
@@ -181,13 +219,22 @@
       "url": "https://github.com/MeqdadDev/teachable-machine",
       "pypi": "https://pypi.org/project/teachable-machine/",
       "docs": "https://meqdaddev.github.io/teachable-machine/",
-      "tags": ["Computer Vision", "OpenCV", "Classification"],
+      "tags": [
+        "Computer Vision",
+        "OpenCV",
+        "Classification"
+      ],
       "description": "A Python package to simplify integrating exported models from Google's Teachable Machine platform into various environments."
     },
     {
       "name": "PixCraft",
       "url": "https://github.com/MeqdadDev/PixCraft",
-      "tags": ["Image Processing", "Flask", "Computer Vision", "OpenCV"],
+      "tags": [
+        "Image Processing",
+        "Flask",
+        "Computer Vision",
+        "OpenCV"
+      ],
       "description": "A powerful image processing and computer vision application that allows users to explore and manipulate digital images with an intuitive interface."
     },
     {
@@ -195,7 +242,12 @@
       "url": "https://github.com/MeqdadDev/teachable-machine-lite",
       "pypi": "https://pypi.org/project/teachable-machine-lite/",
       "docs": "https://meqdaddev.github.io/teachable-machine-lite/",
-      "tags": ["Computer Vision", "OpenCV", "Classification", "Raspberry Pi"],
+      "tags": [
+        "Computer Vision",
+        "OpenCV",
+        "Classification",
+        "Raspberry Pi"
+      ],
       "description": "A lightweight Python package optimized for integrating Teachable Machine models into robotics and embedded systems environments."
     }
   ],
@@ -242,11 +294,36 @@
     }
   ],
   "certificates": [
-    { "title": "Advanced SQL", "issuer": "Manara", "date": "Oct 2024", "url": "https://app.manara.tech/certificate/1729020389-FA86C228C3484162" },
-    { "title": "Intermediate SQL", "issuer": "Manara", "date": "Oct 2024", "url": "https://app.manara.tech/certificate/1728752995-F0C4853618C716F3" },
-    { "title": "NoSQL Databases Using MongoDB", "issuer": "Manara", "date": "Oct 2024", "url": "https://app.manara.tech/certificate/1729535705-E5C7FDC31B9444CE" },
-    { "title": "English Certificate (B2 Upper Intermediate)", "issuer": "EF SET", "date": "Oct 2024", "url": "https://cert.efset.org/en/WZRqAh" },
-    { "title": "Computer Vision Bootcamp", "issuer": "Gaza Sky Geeks", "date": "Apr 2024", "url": "https://www.linkedin.com/in/meqdad-darwish/details/certifications/1714556656421/single-media-viewer/?type=DOCUMENT&profileId=ACoAAB2uHhQBUCUl1vNRDbOyLLt5hL1UDwMGeoU" }
+    {
+      "title": "Advanced SQL",
+      "issuer": "Manara",
+      "date": "Oct 2024",
+      "url": "https://app.manara.tech/certificate/1729020389-FA86C228C3484162"
+    },
+    {
+      "title": "Intermediate SQL",
+      "issuer": "Manara",
+      "date": "Oct 2024",
+      "url": "https://app.manara.tech/certificate/1728752995-F0C4853618C716F3"
+    },
+    {
+      "title": "NoSQL Databases Using MongoDB",
+      "issuer": "Manara",
+      "date": "Oct 2024",
+      "url": "https://app.manara.tech/certificate/1729535705-E5C7FDC31B9444CE"
+    },
+    {
+      "title": "English Certificate (B2 Upper Intermediate)",
+      "issuer": "EF SET",
+      "date": "Oct 2024",
+      "url": "https://cert.efset.org/en/WZRqAh"
+    },
+    {
+      "title": "Computer Vision Bootcamp",
+      "issuer": "Gaza Sky Geeks",
+      "date": "Apr 2024",
+      "url": "https://www.linkedin.com/in/meqdad-darwish/details/certifications/1714556656421/single-media-viewer/?type=DOCUMENT&profileId=ACoAAB2uHhQBUCUl1vNRDbOyLLt5hL1UDwMGeoU"
+    }
   ],
   "stats": [
     "Open-source Contributor",
