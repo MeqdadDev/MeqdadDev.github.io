@@ -884,7 +884,7 @@
           </div>
         `).join('');
 
-        // const statsHTML = data.stats.map(s => `<span>${s}</span>`).join('');
+        const statsHTML = (data.stats || []).map(s => `<span>${s}</span>`).join('');
 
         main.innerHTML = `
           <div class="top-tagline"><strong>${data.personal.tagline}</strong></div>
