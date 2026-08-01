@@ -270,32 +270,38 @@
     {
       "title": "ACID Properties in Databases — Part 2: Your Shield Against Transactional Chaos",
       "medium": "https://medium.com/@meqdad.dev/acid-properties-in-databases-part-2-your-shield-against-transactional-chaos-107c2c0937bb",
-      "devto": "https://dev.to/meqdad_dev/acid-properties-in-databases-your-shield-against-transactional-chaos-36ah"
+      "devto": "https://dev.to/meqdad_dev/acid-properties-in-databases-your-shield-against-transactional-chaos-36ah",
+      "gist": "https://gist.github.com/MeqdadDev/8e8e9f6c6a7cac957ad0d3b772a790c4"
     },
     {
       "title": "ACID Properties in Databases — Part 1: What Happens Without Them?",
       "medium": "https://medium.com/@meqdad.dev/acid-properties-in-databases-what-happens-without-them-c754e4bb4c1d",
-      "devto": "https://dev.to/meqdad_dev/acid-properties-in-databases-what-happens-without-them-3o64"
+      "devto": "https://dev.to/meqdad_dev/acid-properties-in-databases-what-happens-without-them-3o64",
+      "gist": "https://gist.github.com/MeqdadDev/18c19896a9e801f51fbe904c38f3e996"
     },
     {
       "title": "Context Managers Demystified: Simplify Your Resource Handling in Python",
       "medium": "https://medium.com/@meqdad.dev/context-managers-demystified-simplify-your-resource-handling-in-python-2394a9442c18",
-      "devto": "https://dev.to/meqdad_dev/context-managers-demystified-simplify-your-resource-handling-in-python-4lc0"
+      "devto": "https://dev.to/meqdad_dev/context-managers-demystified-simplify-your-resource-handling-in-python-4lc0",
+      "gist": "https://gist.github.com/MeqdadDev/d6728dd03c97688efd9b096c991b1ad3"
     },
     {
       "title": "Stop Creating Repos To Share Your Code Snippets — Use GitHub Gists Instead",
       "medium": "https://medium.com/@meqdad.dev/stop-creating-repos-to-share-your-code-snippets-use-github-gists-instead-1708b3bd27dd",
-      "devto": "https://dev.to/meqdad_dev/stop-creating-repos-to-share-your-code-snippets-use-github-gists-instead-4j5c"
+      "devto": "https://dev.to/meqdad_dev/stop-creating-repos-to-share-your-code-snippets-use-github-gists-instead-4j5c",
+      "gist": "https://gist.github.com/MeqdadDev/b4f9b2987d3f34da00a3a416660b8918"
     },
     {
       "title": "Lessons I've Learned: 10 Tips for Successful Open-Source Project Development",
       "medium": "https://medium.com/@meqdad.dev/lessons-ive-learned-10-tips-for-successful-open-source-project-development-38a166fa0a13",
-      "devto": "https://dev.to/meqdad_dev/lessons-ive-learned-10-tips-for-successful-open-source-project-development-5dl9"
+      "devto": "https://dev.to/meqdad_dev/lessons-ive-learned-10-tips-for-successful-open-source-project-development-5dl9",
+      "gist": "https://gist.github.com/MeqdadDev/92f70ac7227bc4d4689142006d81d78d"
     },
     {
       "title": "Mastering MongoDB Aggregation: A Journey from Fundamentals to Advanced Optimization",
       "medium": "https://medium.com/@meqdad.dev/mastering-mongodb-aggregation-a-journey-from-fundamentals-to-advanced-optimization-a1be02e816a0",
-      "devto": "https://dev.to/meqdad_dev/mastering-mongodb-aggregation-a-journey-from-fundamentals-to-advanced-optimization-2eji"
+      "devto": "https://dev.to/meqdad_dev/mastering-mongodb-aggregation-a-journey-from-fundamentals-to-advanced-optimization-2eji",
+      "gist": "https://gist.github.com/MeqdadDev/7f17bce88cedd71136ec14428b4f1845"
     },
     {
       "title": "Building Simple and Customizable Image Classifier with Teachable Machine and Python",
