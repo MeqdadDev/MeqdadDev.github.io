@@ -205,22 +205,98 @@
     .contact-item {
       font-size: 0.85rem;
       color: var(--text-primary);
-      margin-bottom: 0.4rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .contact-link {
       display: flex;
       align-items: center;
-      gap: 0.5rem;
-      word-break: break-all;
-    }
-
-    .contact-item a {
+      gap: 0.65rem;
+      width: 100%;
+      min-width: 0;
+      padding: 0.28rem 0.35rem;
       color: var(--text-primary);
+      background: transparent;
+      border: 1px solid transparent;
+      border-radius: 0.35rem;
+      font: inherit;
+      text-align: left;
       text-decoration: none;
-      border-bottom: 1px solid transparent;
-      transition: border-color 0.2s;
+      cursor: pointer;
+      transition: background 0.2s, border-color 0.2s, color 0.2s, transform 0.2s;
     }
 
-    .contact-item a:hover {
-      border-bottom-color: var(--accent);
+    .contact-link:hover,
+    .contact-link:focus-visible {
+      background: var(--bg-skill);
+      border-color: var(--border-medium);
+      outline: none;
+      transform: translateX(2px);
+    }
+
+    .contact-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex: 0 0 1.8rem;
+      width: 1.8rem;
+      height: 1.8rem;
+      color: var(--contact-color, var(--accent));
+      background: var(--bg-card);
+      border: 1px solid var(--border-medium);
+      border-radius: 0.42rem;
+      box-shadow: 0 2px 8px rgba(15, 23, 42, 0.05);
+      transition: background 0.3s, border-color 0.3s, transform 0.2s;
+    }
+
+    .contact-link:hover .contact-icon,
+    .contact-link:focus-visible .contact-icon {
+      transform: translateY(-1px);
+      border-color: var(--contact-color, var(--accent));
+    }
+
+    .contact-icon svg {
+      width: 1rem;
+      height: 1rem;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 1.8;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .contact-icon .filled {
+      fill: currentColor;
+      stroke: none;
+    }
+
+    .contact-label {
+      min-width: 0;
+      overflow-wrap: anywhere;
+    }
+
+    .contact-action {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      margin-left: auto;
+      color: var(--text-muted);
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .contact-action svg {
+      width: 0.8rem;
+      height: 0.8rem;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 1.8;
+    }
+
+    .contact-copy.is-copied .contact-action {
+      color: #059669;
     }
 
     .social-links {
@@ -827,6 +903,17 @@
         const social = data.personal.social || {};
         const stats = data.stats;
 
+        const contactIcons = {
+          email: `<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg>`,
+          linkedin: `<svg viewBox="0 0 24 24" aria-hidden="true"><path class="filled" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9H7.12v11.452z"></path></svg>`,
+          github: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.3-.4 6.8-1.6 6.8-7A5.4 5.4 0 0 0 19.4 4 5 5 0 0 0 19.3.5S18.2.1 15 2a13.4 13.4 0 0 0-7 0C4.8.1 3.7.5 3.7.5A5 5 0 0 0 3.6 4a5.4 5.4 0 0 0-1.4 3.7c0 5.3 3.5 6.5 6.8 7A4.8 4.8 0 0 0 8 18v4"></path><path d="M8 19c-3 .9-3-1.5-4-2"></path></svg>`,
+          twitter: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4 5 20"></path></svg>`,
+          website: `<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"></path></svg>`,
+          pypi: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 8 4.5v9L12 21l-8-4.5v-9L12 3Z"></path><path d="m4.3 7.7 7.7 4.4 7.7-4.4M12 12.1V21"></path></svg>`,
+          medium: `<svg viewBox="0 0 176 160" aria-hidden="true"><path class="filled" d="m174.104 9.734.215-.047V8.02H130.39L89.6 103.89 48.81 8.021H1.472v1.666l.212.047c8.018 1.81 12.09 4.509 12.09 14.242V137.93c0 9.734-4.087 12.433-12.106 14.243l-.212.047v1.671h32.118v-1.665l-.213-.048c-8.018-1.809-12.089-4.509-12.089-14.242V30.586l52.399 123.305h2.972l53.925-126.743V140.75c-.687 7.688-4.721 10.062-11.982 11.701l-.215.05v1.652h55.948v-1.652l-.215-.05c-7.269-1.639-11.4-4.013-12.087-11.701l-.037-116.774h.037c0-9.733 4.071-12.432 12.087-14.242"></path></svg>`,
+          devto: `<svg viewBox="0 0 48 40" aria-hidden="true"><rect class="filled" x="1" y="1" width="46" height="38" rx="4"></rect><path fill="#fff" stroke="none" d="M7 9h5.5c3.6 0 6.5 2.9 6.5 6.5v9c0 3.6-2.9 6.5-6.5 6.5H7V9zm4 4v14h1.5c1.38 0 2.5-1.12 2.5-2.5v-9c0-1.38-1.12-2.5-2.5-2.5H11zm10-4h11v4h-7v5h6v4h-6v5h7v4H21V9zm11 0h4l3 14 3-14h4l-5 22h-4L32 9z"></path></svg>`
+        };
+
         // ── Sidebar ──
         document.getElementById('sidebar').innerHTML = `
           <div class="name">${data.personal.name}</div>
@@ -834,13 +921,59 @@
             ${data.personal.title.replace('Bunyan Flow', '<a href="https://bunyanflow.com">Bunyan Flow</a>')}
           </div>
           <hr class="divider" />
-          <h3>Contact</h3>
-          <div class="contact-item">&#9993; <a href="mailto:${contact.email}">${contact.email}</a></div>
-          <div class="contact-item">&#9000; <a href="${contact.github}">GitHub</a></div>
-          <div class="contact-item">&#128013; <a href="${contact.pypi}">PyPI</a></div>
-          <div class="contact-item">&#127760; <a href="${contact.website}">Website</a></div>
-          ${social.linkedin ? `<div class="contact-item">&#128279; <a href="${social.linkedin}">LinkedIn</a></div>` : ''}
-          ${social.twitter ? `<div class="contact-item">&#128038; <a href="${social.twitter}">X / Twitter</a></div>` : ''}
+          <h3>Contact and Links</h3>
+          <div class="contact-item" style="--contact-color: #e35d6a;">
+            <a class="contact-link" href="mailto:${contact.email}">
+              <span class="contact-icon">${contactIcons.email}</span>
+              <span class="contact-label">${contact.email}</span>
+            </a>
+          </div>
+          ${social.linkedin ? `<div class="contact-item" style="--contact-color: #0a66c2;">
+            <a class="contact-link" href="${social.linkedin}" target="_blank" rel="noreferrer">
+              <span class="contact-icon">${contactIcons.linkedin}</span>
+              <span class="contact-label">LinkedIn</span>
+            </a>
+          </div>` : ''}
+          <div class="contact-item" style="--contact-color: #6b7280;">
+            <a class="contact-link" href="${contact.github}" target="_blank" rel="noreferrer">
+              <span class="contact-icon">${contactIcons.github}</span>
+              <span class="contact-label">GitHub</span>
+            </a>
+          </div>
+          ${social.twitter ? `<div class="contact-item" style="--contact-color: #64748b;">
+            <a class="contact-link" href="${social.twitter}" target="_blank" rel="noreferrer">
+              <span class="contact-icon">${contactIcons.twitter}</span>
+              <span class="contact-label">X / Twitter</span>
+            </a>
+          </div>` : ''}
+          <div class="contact-item" style="--contact-color: #0ea5e9;">
+            <button class="contact-link contact-copy" id="copyWebsite" type="button" data-copy="${contact.website}" aria-label="Copy website URL">
+              <span class="contact-icon">${contactIcons.website}</span>
+              <span class="contact-label">Website</span>
+              <span class="contact-action" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"></rect><path d="M15 9V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h3"></path></svg>
+                <span class="copy-status">Copy</span>
+              </span>
+            </button>
+          </div>
+          <div class="contact-item" style="--contact-color: #3775a9;">
+            <a class="contact-link" href="${contact.pypi}" target="_blank" rel="noreferrer">
+              <span class="contact-icon">${contactIcons.pypi}</span>
+              <span class="contact-label">PyPI</span>
+            </a>
+          </div>
+          ${social.medium ? `<div class="contact-item" style="--contact-color: var(--text-primary);">
+            <a class="contact-link" href="${social.medium}" target="_blank" rel="noreferrer">
+              <span class="contact-icon">${contactIcons.medium}</span>
+              <span class="contact-label">Medium</span>
+            </a>
+          </div>` : ''}
+          ${social.devto ? `<div class="contact-item" style="--contact-color: #0f0f0f;">
+            <a class="contact-link" href="${social.devto}" target="_blank" rel="noreferrer">
+              <span class="contact-icon">${contactIcons.devto}</span>
+              <span class="contact-label">DEV.to</span>
+            </a>
+          </div>` : ''}
           <hr class="divider" />
           <h3>Impact</h3>
           ${stats.map(item => `${item}<br />`).join('')}
@@ -855,6 +988,41 @@
         `;
 
         // ── Main content ──
+        const copyWebsite = document.getElementById('copyWebsite');
+        copyWebsite?.addEventListener('click', async () => {
+          const copyStatus = copyWebsite.querySelector('.copy-status');
+
+          try {
+            if (navigator.clipboard?.writeText) {
+              await navigator.clipboard.writeText(copyWebsite.dataset.copy);
+            } else {
+              const textarea = document.createElement('textarea');
+              textarea.value = copyWebsite.dataset.copy;
+              textarea.style.position = 'fixed';
+              textarea.style.opacity = '0';
+              document.body.appendChild(textarea);
+              textarea.select();
+              const copied = document.execCommand('copy');
+              textarea.remove();
+              if (!copied) throw new Error('Copy failed');
+            }
+
+            copyWebsite.classList.add('is-copied');
+            copyStatus.textContent = 'Copied';
+            copyWebsite.setAttribute('aria-label', 'Website URL copied');
+
+            window.setTimeout(() => {
+              copyWebsite.classList.remove('is-copied');
+              copyStatus.textContent = 'Copy';
+              copyWebsite.setAttribute('aria-label', 'Copy website URL');
+            }, 1800);
+          } catch (error) {
+            copyStatus.textContent = 'Failed';
+            window.setTimeout(() => { copyStatus.textContent = 'Copy'; }, 1800);
+            console.error('Could not copy website URL', error);
+          }
+        });
+
         const main = document.getElementById('mainContent');
 
         const summaryHTML = data.summary.map(p => `<p>${p}</p>`).join('');
