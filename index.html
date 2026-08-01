@@ -450,6 +450,42 @@
       margin-top: 0.2rem;
     }
 
+    /* languages */
+    .language-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.7rem;
+    }
+
+    .language-item {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.35rem;
+    }
+
+    .language-item .language-name {
+      background: var(--bg-skill);
+      border: 1px solid var(--border-medium);
+      padding: 0.1rem 0.6rem;
+      font-size: 0.78rem;
+      font-weight: 500;
+      color: var(--text-primary);
+      transition: background 0.3s, border-color 0.3s, color 0.3s;
+    }
+
+    .language-level {
+      font-size: 0.78rem;
+      color: var(--text-secondary);
+      line-height: 1.35;
+      padding-left: 0.1rem;
+    }
+
+    .language-detail {
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+
     /* skill section in main */
     .skill-section-grid {
       display: grid;
@@ -713,6 +749,10 @@
         padding: 0.8rem 1rem;
       }
 
+      .language-grid {
+        grid-template-columns: 1fr;
+      }
+
       .footer-stats {
         gap: 0.4rem 1rem;
       }
@@ -850,6 +890,19 @@
           </div>
         `;
 
+        const languagesHTML = data.languages
+          ? `<div class="language-grid" aria-label="Language proficiency">
+              ${data.languages.map(language => `
+                <div class="language-item">
+                  <span class="language-name">${language.name}</span>
+                  <div class="language-level">
+                    ${language.level}${language.detail ? ` <span class="language-detail">(${language.detail})</span>` : ''}
+                  </div>
+                </div>
+              `).join('')}
+            </div>`
+          : '';
+
         const knowledgeHTML = data.knowledgeFields
           ? `<ul class="knowledge-list">${data.knowledgeFields.map(k => `<li>${k}</li>`).join('')}</ul>`
           : '';
@@ -909,6 +962,8 @@
 
           <h2 class="section-title">Certificates</h2>
           ${certsHTML}
+
+          ${data.languages ? `<h2 class="section-title">Languages</h2>${languagesHTML}` : ''}
 
           <!-- <div class="footer-stats">${statsHTML}</div> -->
         `;

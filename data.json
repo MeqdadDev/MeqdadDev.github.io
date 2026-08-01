@@ -73,6 +73,21 @@
     "Computer Vision: TensorFlow, TensorFlow Lite, YOLO Object Detection, MediaPipe",
     "Data Science: NumPy, Pandas, Matplotlib, scikit-learn"
   ],
+  "languages": [
+    {
+      "name": "Arabic",
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "level": "Advanced",
+      "detail": "B2 Upper Intermediate"
+    },
+    {
+      "name": "Hebrew",
+      "level": "Beginner"
+    }
+  ],
   "experience": [
     {
       "company": "Bunyan Flow",
