@@ -910,7 +910,7 @@
           twitter: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4 5 20"></path></svg>`,
           website: `<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"></path></svg>`,
           pypi: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 8 4.5v9L12 21l-8-4.5v-9L12 3Z"></path><path d="m4.3 7.7 7.7 4.4 7.7-4.4M12 12.1V21"></path></svg>`,
-          medium: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 17V7l5 10 5-10v10M18 7v10M16.5 7h3"></path></svg>`,
+          medium: `<svg viewBox="0 0 176 160" aria-hidden="true"><path class="filled" d="m174.104 9.734.215-.047V8.02H130.39L89.6 103.89 48.81 8.021H1.472v1.666l.212.047c8.018 1.81 12.09 4.509 12.09 14.242V137.93c0 9.734-4.087 12.433-12.106 14.243l-.212.047v1.671h32.118v-1.665l-.213-.048c-8.018-1.809-12.089-4.509-12.089-14.242V30.586l52.399 123.305h2.972l53.925-126.743V140.75c-.687 7.688-4.721 10.062-11.982 11.701l-.215.05v1.652h55.948v-1.652l-.215-.05c-7.269-1.639-11.4-4.013-12.087-11.701l-.037-116.774h.037c0-9.733 4.071-12.432 12.087-14.242"></path></svg>`,
           devto: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 9-3 3 3 3M16 9l3 3-3 3M14 6l-4 12"></path></svg>`
         };
 
@@ -962,7 +962,7 @@
               <span class="contact-label">PyPI</span>
             </a>
           </div>
-          ${social.medium ? `<div class="contact-item" style="--contact-color: #00ab6c;">
+          ${social.medium ? `<div class="contact-item" style="--contact-color: var(--text-primary);">
             <a class="contact-link" href="${social.medium}" target="_blank" rel="noreferrer">
               <span class="contact-icon">${contactIcons.medium}</span>
               <span class="contact-label">Medium</span>
