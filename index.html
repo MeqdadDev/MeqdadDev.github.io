@@ -493,6 +493,20 @@
       transition: color 0.3s;
     }
 
+    .exp ul li a {
+      color: inherit;
+      text-decoration: underline;
+      text-decoration-color: var(--border-medium);
+      text-underline-offset: 0.16em;
+      transition: color 0.2s, text-decoration-color 0.2s;
+    }
+
+    .exp ul li a:hover,
+    .exp ul li a:focus-visible {
+      color: var(--accent);
+      text-decoration-color: currentColor;
+    }
+
     /* education */
     .edu {
       margin-bottom: 1rem;
