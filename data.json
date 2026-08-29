@@ -90,6 +90,19 @@
   ],
   "experience": [
     {
+      "company": "Purpose",
+      "url": "https://www.purpose.ps/",
+      "role": "R&D Engineer",
+      "date": "Part Time, Sep 2026 – Present",
+      "details": [
+        "Contribute to the technical development of training solutions and digital products, integrating practical AI tools and keeping course materials aligned with emerging technologies.",
+        "Design and facilitate hands-on learning sessions that help team members develop practical skills in AI, software, and other digital technologies.",
+        "Oversee internal technical tools and workflows, supporting reliable day-to-day operations and identifying opportunities to improve efficiency.",
+        "Support the technical direction of Purpose's business incubator, maintaining relevant, up-to-date program content across AI, robotics, and software development.",
+        "Lead community sessions and partner meetups that demonstrate and share Purpose's software, robotics, and AI solutions."
+      ]
+    },
+    {
       "company": "Bunyan Flow",
       "url": "https://bunyanflow.com",
       "role": "Founder",
