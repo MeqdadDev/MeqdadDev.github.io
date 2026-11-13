@@ -1,7 +1,7 @@
 {
   "personal": {
     "name": "Meqdad A. Darwish",
-    "title": "Back-End Developer · Founder @ Bunyan Flow",
+    "title": "EdTech R&D Lead · Founder @ Bunyan Flow",
     "tagline": "Back-end ✦ Product-minded ✦ Technical Writer ✦ Robotics ✦ EdTech",
     "contact": {
       "email": "meqdad.darweesh@gmail.com",
@@ -18,9 +18,9 @@
     }
   },
   "summary": [
-    "I'm an R&D engineer and back-end developer — integrating AI into training solutions at Purpose while building my own product.",
+    "I'm an EdTech R&D Lead and back-end developer — leading Purpose's platform, courses, and AI/robotics tracks while building my own product.",
     "Bunyan Flow is a live bilingual (Arabic/English) property management platform I founded and now operate for real customers. I build and run it end to end — Java, Spring Boot, PostgreSQL — owning everything from requirements analysis and database design to RESTful services, KPI dashboards, and CI/CD with GitHub Actions.",
-    "At Purpose, I support technical development, bring practical AI into training and digital products, maintain internal tools, and contribute to Purpose Incubator programmes across AI, robotics, and software development.",
+    "At Purpose, I lead the Purpose Platform and the academy's Robotics and AI tracks, design new courses and competitions, teach advanced courses, deliver outsourced client projects, and support the technical direction of Purpose Incubator.",
     "Before that: production back-end work at LogesTechs, where I built and maintained a logistics system processing 30k+ daily data entries — customer wallet features, audit logging, real-time reporting. Java, Spring Boot, MySQL, Agile teams.",
     "I also spent years on the education side of tech — training 2,000+ learners, from students to Ministry of Education engineers, and leading ToT programmes in robotics and AI. That chapter taught me something most developers learn late: if you can't explain a system simply, you don't understand it yet. It made me a better engineer, and it's why building products people actually understand comes naturally to me.",
     "Open source is where I sharpen the saw: my Python packages on PyPI have passed 50k+ downloads. I write technical articles on databases (SQL and NoSQL), clean code, AI, and programming.",
@@ -93,14 +93,17 @@
     {
       "company": "Purpose",
       "url": "https://www.purpose.ps/",
-      "role": "R&D Engineer",
+      "role": "EdTech R&D Lead",
       "date": "Part Time, Sep 2026 – Present",
       "details": [
-        "Contribute to the technical development of training solutions and digital products, integrating practical AI tools and keeping course materials aligned with emerging technologies.",
-        "Design and facilitate hands-on learning sessions that help team members develop practical skills in AI, software, and other digital technologies.",
-        "Oversee internal technical tools and workflows, supporting reliable day-to-day operations and identifying opportunities to improve efficiency.",
-        "Support the technical direction of <a href=\"https://www.linkedin.com/company/purpose-incubator/\" target=\"_blank\" rel=\"noreferrer\">Purpose Incubator</a>, maintaining relevant, up-to-date program content across AI, robotics, and software development.",
-        "Lead community sessions and partner meetups that demonstrate and share Purpose's software, robotics, and AI solutions."
+        "Lead the Purpose Platform, the academy's in-house LMS and website, from roadmap to release.",
+        "Redesigned Purpose's tracks map around Robotics and AI across all age groups, with flexible entry points (course \"bubbles\"), open-source tools, and a transition plan that adapts existing kits.",
+        "Design new courses and programs, including school-level ROS2 and AI courses and the Purpose Challenge competition; teach advanced courses for senior school and university students, including Mobile Robot, LLMs, and Computer Vision.",
+        "Deliver outsourced projects for Purpose clients in two areas: custom training programs, and software and hardware solutions.",
+        "Automate internal operations at Purpose, including student evaluation reports, training session documentation, HR operations, and financial management.",
+        "Maintain open-source Python packages (Teachable Machine, Teachable Machine Lite, and Detectors World) used in Purpose's robotics and AI projects.",
+        "Keep the training team current through hands-on sessions on AI tools, and guide them in adopting new platforms, workflows, and the new tracks map.",
+        "Support the technical direction of <a href=\"https://www.linkedin.com/company/purpose-incubator/\" target=\"_blank\" rel=\"noreferrer\">Purpose Incubator</a> and represent Purpose at partner events and community sessions."
       ]
     },
     {
