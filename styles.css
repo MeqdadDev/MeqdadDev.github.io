@@ -64,3 +64,48 @@
   .project-links,.article-links{gap:6px 18px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Moments gallery */
+#moments{padding-top:72px}
+.gallery{columns:3 280px;column-gap:16px}
+.gallery figure{margin:0 0 16px;break-inside:avoid}
+.gallery a{display:block;overflow:hidden;border:1px solid var(--line);border-radius:14px;background:var(--surface-alt)}
+.gallery img{display:block;width:100%;height:auto;transition:transform .4s ease}
+.gallery a:hover img{transform:scale(1.03)}
+.gallery-small{columns:3 220px}
+#moments .subheading{margin:44px 0 20px}
+@media(prefers-reduced-motion:reduce){.gallery img{transition:none}.gallery a:hover img{transform:none}}
+
+/* Lightbox */
+.lightbox{border:0;padding:0;background:transparent;width:min(96vw,1400px);max-width:none;max-height:94vh;margin:auto;overflow:visible;color:#f4f6f0}
+.lightbox::backdrop{background:rgba(5,12,9,.88)}
+.lightbox img{display:block;max-width:100%;max-height:80vh;margin:0 auto;border-radius:10px}
+.lightbox p{margin:12px auto 0;max-width:70ch;text-align:center;font-size:14px;line-height:1.5;color:#d6ddd2}
+.lb-btn{position:absolute;width:44px;height:44px;border-radius:50%;border:1px solid #ffffff59;background:rgba(11,21,17,.8);color:#fff;font-size:26px;line-height:1;cursor:pointer;display:grid;place-items:center}
+.lb-btn:hover{background:rgba(11,21,17,.95);border-color:#fff}
+.lb-btn:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.lb-close{top:-8px;right:-8px}
+.lb-prev,.lb-next{top:calc(40vh - 22px)}
+.lb-prev{left:8px}.lb-next{right:8px}
+@media(max-width:750px){.gallery{columns:2 150px;column-gap:10px}.gallery figure{margin-bottom:10px}.gallery-small{columns:2 150px}.lb-close{top:-52px;right:0}}
+
+/* About photo carousel */
+.travel-carousel{max-width:320px}
+.travel-carousel .tc-slides{position:relative;aspect-ratio:3/4;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--surface-alt)}
+.travel-carousel .tc-slide{position:absolute;inset:0;margin:0}
+.travel-carousel .tc-slide[hidden]{display:none}
+.travel-carousel .tc-slide img{display:block;width:100%;height:100%;object-fit:cover;border:0;border-radius:0}
+.tc-controls{display:flex;align-items:center;gap:10px;margin-top:10px}
+.tc-controls[hidden]{display:none}
+.tc-btn{width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;display:grid;place-items:center;padding:0}
+.tc-btn:hover{border-color:var(--ink)}
+.tc-dots{display:flex;gap:0}
+.tc-dot{width:26px;height:26px;border:0;background:transparent;padding:0;cursor:pointer;display:grid;place-items:center}
+.tc-dot span{width:9px;height:9px;border-radius:50%;background:var(--line);transition:background .2s}
+.tc-dot[aria-pressed="true"] span{background:var(--accent)}
+.travel-carousel:focus-visible{outline:2px solid var(--accent);outline-offset:6px;border-radius:6px}
+@media(max-width:750px){.travel-carousel{max-width:320px;margin-inline:auto}}
+
+/* Hero carousel counter (replaces dots now that there are many photos) */
+.carousel-count{min-width:58px;text-align:center;font:600 13px/1 'DM Sans',sans-serif;color:var(--muted);font-variant-numeric:tabular-nums}
+.carousel .carousel-slide figcaption span:last-child{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
