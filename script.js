@@ -28,6 +28,9 @@ function showPhoto(index){
   photoButtons.forEach((button,i)=>button.setAttribute('aria-pressed',String(i===photoIndex)));
   const img=slides[photoIndex].querySelector('img');
   img.loading='eager';
+  slides[(photoIndex+1)%slides.length].querySelector('img').loading='eager';
+  const count=carousel.querySelector('.carousel-count');
+  if(count)count.textContent=(photoIndex+1)+' / '+slides.length;
   carousel.querySelector('.carousel-status').textContent=`Photo ${photoIndex+1} of ${slides.length}: ${img.alt}`;
 }
 if(slides.length>1){
@@ -71,3 +74,62 @@ if(slides.length>1){
   reducedMotion.addEventListener('change',e=>{paused=e.matches;syncRotation();});
   syncRotation();
 }
+
+// Photo viewer for the Moments gallery. Without JavaScript the links open the full image.
+(function(){
+  const dlg=document.getElementById('lightbox');
+  if(!dlg||typeof dlg.showModal!=='function')return;
+  const links=Array.from(document.querySelectorAll('.gallery a'));
+  const img=dlg.querySelector('#lb-img'),cap=dlg.querySelector('#lb-cap');
+  let index=0;
+  function show(i){
+    index=(i+links.length)%links.length;
+    const a=links[index],thumb=a.querySelector('img');
+    img.src=a.href;img.alt=thumb.alt;
+    cap.textContent=(a.dataset.caption||thumb.alt)+' ('+(index+1)+' of '+links.length+')';
+  }
+  links.forEach((a,i)=>a.addEventListener('click',e=>{e.preventDefault();show(i);dlg.showModal();}));
+  dlg.querySelector('.lb-close').addEventListener('click',()=>dlg.close());
+  dlg.querySelector('.lb-prev').addEventListener('click',()=>show(index-1));
+  dlg.querySelector('.lb-next').addEventListener('click',()=>show(index+1));
+  dlg.addEventListener('click',e=>{if(e.target===dlg)dlg.close();});
+  dlg.addEventListener('keydown',e=>{
+    if(e.key==='ArrowLeft'){e.preventDefault();show(index-1);}
+    if(e.key==='ArrowRight'){e.preventDefault();show(index+1);}
+  });
+  dlg.addEventListener('close',()=>{if(!dlg.open)img.removeAttribute('src');});
+})();
+
+// About photo carousel: manual only (buttons, dots, arrow keys, swipe).
+document.querySelectorAll('.travel-carousel').forEach(root=>{
+  const slides=Array.from(root.querySelectorAll('.tc-slide'));
+  const dots=Array.from(root.querySelectorAll('.tc-dot'));
+  const caption=root.querySelector('.tc-caption'),status=root.querySelector('.tc-status');
+  if(slides.length<2)return;
+  let index=0;
+  function show(n){
+    index=(n+slides.length)%slides.length;
+    slides.forEach((s,i)=>{s.hidden=i!==index;});
+    dots.forEach((d,i)=>d.setAttribute('aria-pressed',String(i===index)));
+    const img=slides[index].querySelector('img');
+    img.loading='eager';
+    caption.textContent=slides[index].dataset.caption;
+    status.textContent='Photo '+(index+1)+' of '+slides.length+': '+caption.textContent;
+  }
+  root.querySelector('.tc-controls').hidden=false;
+  root.querySelector('.tc-prev').addEventListener('click',()=>show(index-1));
+  root.querySelector('.tc-next').addEventListener('click',()=>show(index+1));
+  dots.forEach((d,i)=>d.addEventListener('click',()=>show(i)));
+  root.addEventListener('keydown',e=>{
+    if(e.key==='ArrowLeft'){e.preventDefault();show(index-1);}
+    if(e.key==='ArrowRight'){e.preventDefault();show(index+1);}
+  });
+  let start=null;
+  root.addEventListener('touchstart',e=>{start={x:e.changedTouches[0].clientX,y:e.changedTouches[0].clientY};},{passive:true});
+  root.addEventListener('touchend',e=>{
+    if(!start)return;
+    const dx=e.changedTouches[0].clientX-start.x,dy=e.changedTouches[0].clientY-start.y;
+    if(Math.abs(dx)>40&&Math.abs(dx)>Math.abs(dy)*1.5)show(index+(dx<0?1:-1));
+    start=null;
+  },{passive:true});
+});
